@@ -1,0 +1,40 @@
+.modal {
+    .modal-dialog {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+        margin: 0 20px;
+        width: calc(100% - 40px);
+        max-width: 530px;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+            .modal-header {
+                border-bottom: 0;
+                padding: 26px 21px 22px;
+                h4 {
+                    color: $grey;
+                    font-size: 26px;
+                    font-weight: 900;
+                }
+            }
+            .modal-body {
+                padding: 0 21px;
+            }
+        }
+        .button-group {
+            padding: 40px 0;
+            text-align: center;
+        }
+    }
+}
+.modal-backdrop {
+    background-color: $white;
+    &.in {
+        opacity: .75;
+
+        filter: alpha(opacity=75);
+    }
+}

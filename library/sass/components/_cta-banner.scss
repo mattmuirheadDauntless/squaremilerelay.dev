@@ -1,0 +1,74 @@
+.cta-banner {
+    background-color: $orange;
+    padding: 20px 5px;
+    text-align: center;
+    color: $white;
+    font-size: 35px;
+    .btn {
+        margin-left: 65px;
+    }
+}
+
+header,
+.header {
+    .cta-banner {
+        position: fixed;
+        top: 69px;
+        left: 0;
+        transform: translateY(-150px);
+        transition: all ease-in .5s;
+        z-index: 1;
+        background-color: $orange;
+        width: 100%;
+        font-size: 22px;
+        padding: 10px 0;
+
+        .btn {
+            padding: 12px 25px;
+            font-size: 11px;
+        }
+    }
+}
+
+.cta-fixed {
+    header,
+    .header {
+        .cta-banner {
+            transform: translateY(0);
+            transition: all ease-in .5s;
+        }
+    }
+}
+
+@include desktop {
+    .cta-banner {
+        font-size: 33px;
+    }
+}
+
+@include tablet-l {
+    .header .cta-banner {
+        display: none;
+    }
+
+    .cta-banner {
+        font-size: 30px;
+        padding-bottom: 15px;
+        .btn-black {
+            margin: 10px 0 auto;
+            font-size: 13px;
+        }
+    }
+}
+
+@include phone {
+    .cta-banner {
+        padding: 20px 20px 20px;
+        font-size: 22px;
+        .btn-black {
+            display: block;
+            width: 250px;
+            margin: 15px auto 0;
+        }
+    }
+}

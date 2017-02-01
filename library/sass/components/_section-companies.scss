@@ -1,0 +1,198 @@
+//Charities Filter
+.companies-filter {
+    padding: 0;
+    background-color: $lightergrey;
+    position: relative;
+    overflow: hidden;
+    .companies-filter-btn {
+        padding: 22px 20px;
+        p {
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            display: inline-block;
+        }
+        .fa-chevron-down {
+            margin-left: 50px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .view-all {
+            position: absolute;
+            top: 20px;
+            right: 18px;
+            transform: translateX(150%);
+            transition: all ease-in .3s;
+
+            .fa-times {
+                margin: 0 0 0 12px;
+                vertical-align: -5px;
+                font-size: 25px;
+                font-weight: 100;
+            }
+        }
+    }
+    .filter-dropdown {
+        max-height: 0;
+        height: auto;
+        transition: all ease-in .3s;
+        float: left;
+        width: 100%;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            float: left;
+
+            li {
+                list-style: none;
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 800;
+                letter-spacing: 2px;
+                padding: 17px 30px;
+                cursor: pointer;
+            }
+        }
+
+            .year-filter {
+                width: 400px;
+                padding: 5px;
+                padding-left: 30px;
+                margin-bottom: 3px;
+                border-right: 1px solid $bordergrey;
+            }
+
+            .country-filter {
+                width: calc(100% - 400px);
+                padding: 5px;
+                padding-left: 55px;
+                margin-bottom: 3px;
+            }
+    }
+
+    &.active {
+        .companies-filter {
+            padding: 0 0 18px;
+        }
+        .filter-dropdown {
+            max-height: 800px;
+            transition: all ease-in .3s;
+            padding-bottom: 17px;
+        }
+        .view-all {
+            transform: translateX(0);
+            transition: all ease-in .3s;
+       }
+    }
+}
+
+//Charities class
+.companies {
+    margin: 11.5px 10.5px 161px;
+    width: calc(100% - 21px);
+
+    .companies-item {
+        width: 25%;
+        padding: 11.5px 10.5px 55px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h3 {
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        h4 {
+            font-weight: 700;
+            font-size: 19px;
+            color: $lightgrey;
+        }
+
+        h5 {
+            font-weight: 200;
+            font-size: 17px;
+            color: $lightgrey;
+        }
+
+    }
+
+    .load-more {
+        position: absolute;
+        text-align: center;
+        bottom: -20px;
+        left: 10.5px;
+        right: 10.5px;
+        height: 1px;
+        border: 1px solid $lightgrey;
+        display: inline-block;
+    }
+}
+
+@include tablet-l {
+    .companies {
+        .companies-item {
+            width: 33.33%;
+        }
+    }
+
+    .companies-filter {
+        .filter-dropdown {
+            padding: 0 20px;
+            .year-filter {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 3px;
+                border: 0;
+                border-bottom: 1px solid $bordergrey;
+                li {
+                    padding: 17px 30px 17px 0;
+                }
+            }
+
+            .country-filter {
+                width: 100%;
+                border: 0;
+                padding: 5px;
+                margin-bottom: 3px;
+                 li {
+                    padding: 17px 30px 17px 0;
+                }
+            }
+        }
+    }
+}
+
+@include phone {
+    .companies {
+        .companies-item {
+            width: 100%;
+            padding-bottom: 30px;
+        }
+    }
+
+    .companies-filter {
+        .companies-filter-btn {
+            .view-all {
+                .fa-times {
+                    display: none;
+                }
+            }
+        }
+
+        .filter-dropdown {
+            ul li {
+                font-size: 11px;
+                padding: 14px 20px;
+            }
+        }
+    }
+}

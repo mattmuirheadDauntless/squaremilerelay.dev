@@ -1,0 +1,153 @@
+.next-races {
+    float: left;
+    clear: both;
+    width: 100%;
+    .races {
+        float: left;
+        width: calc(100% - 80px);
+        .race {
+            position: relative;
+            float: left;
+            width: 33.33%;
+            height: 400px;
+            overflow: hidden;
+            .text {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transform: translateX(0);
+                transition: all ease-in .4s .2s;
+                z-index: 2;
+                padding: 48px 50px;
+                //location
+                h2 {
+                    margin: 0 0 3px;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    color: $white;
+                    font-size: 40px;
+                    font-weight: 900;
+                }
+                //date
+                h3 {
+                    margin: 0 0 6px;
+                    color: $white;
+                    font-size: 25px;
+                    font-weight: 100;
+                }
+                //Next Race:
+                h4 {
+                    margin: 0 0 37px;
+                    text-transform: uppercase;
+                    letter-spacing: 4px;
+                    color: $orange;
+                    font-size: 38px;
+                    font-weight: 900;
+                }
+                //number of days
+                h5 {
+                    margin: 0;
+                    color: $white;
+                    font-size: 64px;
+                    font-weight: 700;
+                }
+            }
+            img {
+                position: absolute;
+                right: -5px;
+                bottom: -5px;
+                transform: scale(1);
+                transition: all ease-in .4s .2s;
+                z-index: 1;
+                width: 80%;
+                height: auto;
+
+                transform-origin: right bottom;
+            }
+            &:nth-child(1) {
+                background-color: $black;
+            }
+            &:nth-child(2) {
+                background-color: $grey;
+            }
+            &:nth-child(3) {
+                background-color: $lightgrey;
+            }
+            &:hover {
+                .text {
+                    transform: translateX(10px);
+                    transition: all ease-in .4s .2s;
+                }
+                img {
+                    transform: scale(1.05);
+                    transition: all ease-in .4s .2s;
+                }
+            }
+        }
+    }
+    .view-more {
+        position: relative;
+        float: right;
+        transition: all ease-in .4s .2s;
+        background-color: $black;
+        width: 80px;
+        height: 400px;
+        overflow: hidden;
+        color: $white;
+        span {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotate(-90deg);
+            width: 100%;
+            width: 450px;
+            height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 24px;
+            font-weight: 900;
+        }
+        &:hover {
+            transition: all ease-in .4s .2s;
+            background-color: lighten($black, 15%);
+        }
+    }
+}
+
+@include desktop {
+    .next-races {
+        .races {
+            .race {
+                height: 254px;
+                .text {
+                    padding: 28px 30px;
+                    //location
+                    h2 {
+                        font-size: 30px;
+                    }
+                    //date
+                    h3 {
+                        font-size: 15px;
+                    }
+                    //Next Race:
+                    h4 {
+                        font-size: 28px;
+                    }
+                    //number of days
+                    h5 {
+                        font-size: 54px;
+                    }
+                }
+            }
+        }
+        .view-more {
+            height: 254px;
+            span {
+                width: 310px;
+                font-size: 20px;
+            }
+        }
+    }
+}

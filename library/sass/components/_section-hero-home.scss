@@ -1,0 +1,153 @@
+.hero-home {
+    padding-top: 40px;
+    padding-bottom: 128px;
+    background-color: $lightgrey;
+    .wrapper-thin {
+        position: relative;
+    }
+    .title {
+        padding: 130px 0 0;
+        width: 100%;
+        max-width: 510px;
+        position: relative;
+
+        img {
+            float: left;
+            width: 200px;
+            height: auto;
+        }
+        h2 {
+            color: $white;
+            font-size: 30px;
+            line-height: 45px;
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 51px;
+        }
+        h1 {
+            margin: 23px 0 0;
+            letter-spacing: .5px;
+            color: $orange;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        h3 {
+            color: $white;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 48px;
+        }
+    }
+    .play-video {
+        position: absolute;
+        right: 10.4%;
+        top: 68%;
+        transform: translateY(-50%);
+
+        .play-btn {
+            width: 92px;
+            height: 92px;
+            border: 7px solid $white;
+            border-radius: 100%;
+            float: left;
+            position: relative;
+
+            i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $white;
+                font-size: 33px;
+                margin-left: 3px;
+            }
+        }
+        span {
+            float: right;
+            margin-top: 39px;
+            margin-left: 27px;
+            color: $white;
+            font-size: 18px;
+        }
+    }
+}
+
+@include desktop {
+    .hero-home {
+
+
+    }
+}
+
+@include tablet-l {
+    .hero-home {
+        padding: 18px 0 100px;
+        .title {
+            max-width: 450px;
+            h2 {
+                font-size: 28px;
+            }
+            h3 {
+                font-size: 44px;
+            }
+            h1 {
+                font-size: 16px;
+            }
+        }
+        .play-video {
+            .play-btn {
+                width: 80px;
+                height: 80px;
+                border: 6px solid #fff;
+            }
+            span {
+                margin: 30px 0 0 20px;
+            }
+        }
+    }
+}
+
+@include phone {
+    .hero-home {
+        padding: 18px 0 110px;
+        .title {
+            padding: 80px 0 0;
+            h2 {
+                font-size: 23px;
+                margin-bottom: 25px;
+                line-height: 35px;
+            }
+            h3 {
+                font-size: 35px;
+                line-height: 38px;
+            }
+            h1 {
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+        .play-video {
+            position: relative;
+            padding: 0;
+            margin: 30px 0 0 0;
+            top: 0;
+            right: 0;
+            transform: none;
+
+            .play-btn {
+                width: 65px;
+                height: 65px;
+
+                .fa-play {
+                    font-size: 28px;
+                }
+            }
+
+            span {
+                margin: 23px 0 0 17px;
+                float: left;
+            }
+        }
+    }
+}
