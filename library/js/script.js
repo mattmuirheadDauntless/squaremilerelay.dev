@@ -1,4 +1,7 @@
 $(function(){
+//===================================
+//GENERAL
+//===================================
 
     // Fix cta in header if waypoint hit
     new Waypoint({
@@ -47,8 +50,58 @@ $(function(){
         if(is_email){input.removeClass("invalid").addClass("valid");}
         else{input.removeClass("valid").addClass("invalid");}
     });
-
     //End input validation
+
+    //handle filters
+    $('.filters .filters-btn').click(function() {
+       $('.filters').toggleClass('active');
+    });
+
+    $('.filter').click(function() {
+        var $this = $(this),
+            $parent = $this.parent('.filter-group'),
+            $selector = $this.attr('data-filter');
+
+        if ($selector == "*"){
+            $('.filter').removeClass('active');
+            $this.addClass('active');
+        } else {
+            $selector = "";
+            $parent.children('.filter').removeClass('active');
+            $this.addClass('active');
+
+            $('.filter.active').each(function(){
+                $selector += $(this).attr('data-filter');
+            });
+        }
+
+        //if news
+        if ($('.news').length > 0) {
+            $('.news').isotope({
+                filter: $selector
+            });
+        }
+
+        //if charities
+        if ($('.charities').length > 0) {
+            $('.charities').isotope({
+                filter: $selector
+            });
+        }
+
+        //if companies
+        if ($('.charities').length > 0) {
+            $('.charities').isotope({
+                filter: $selector
+            });
+        }
+
+        return false;
+    });
+
+//===================================
+//HOME PAGE
+//===================================
 
     //handle home page accordion nav
     $('.about-accordion .nav-items li').click(function() {
@@ -58,90 +111,7 @@ $(function(){
         $this.addClass('active');
     });
 
-
-    //Isotope js, NEWS PAGE:
-    var $newsGrid = $('.news').isotope({
-        itemSelector: '.news-item',
-        percentPosition: true,
-        masonry: {
-        // use outer width of grid-sizer for columnWidth
-        columnWidth: '.grid-sizer'
-        }
-    });
-
-    $newsGrid.imagesLoaded().progress( function() {
-         $newsGrid.isotope('layout');
-    });
-
-    //Isotope NEWS click function
-    $('.filter').click(function() {
-        $('.filter').removeClass('active');
-        $(this).addClass('active');
-
-        var selector = $(this).attr('data-filter');
-        $('.news').isotope({
-            filter: selector
-        });
-        return false;
-    });
-
-    //News Filter
-    $('.news-filter .filter-btn').click(function() {
-       $('.news-filter').toggleClass('active');
-    });
-
-    //Flickity
-    $('.main-carousel').flickity({
-      // options
-      cellAlign: 'left',
-      pageDots: false,
-      prevNextButtons: false,
-      contain: true
-    });
-
-    //Isotope, CHARITIES PAGE:
-    var $charityGrid = $('.charities').isotope({
-        itemSelector: '.charities-item',
-        percentPosition: true,
-        layoutMode: 'fitRows'
-    });
-
-    $charityGrid.imagesLoaded().progress( function() {
-         $charityGrid.isotope('layout');
-    });
-
-    //Charities Filter
-     $('.charities-filter .charities-filter-btn').click(function() {
-       $('.charities-filter').toggleClass('active');
-    });
-
-    //Isotope charities click function
-
-
-    //init Isotope for News Index
-    var $newsGrid = $('.news').isotope({
-        itemSelector: '.news-item',
-        percentPosition: true,
-        masonry: {
-        // use outer width of grid-sizer for columnWidth
-        columnWidth: '.grid-sizer'
-        }
-    });
-
-    var $imgGrid = $('.accordion-gallery').isotope({
-        layoutMode: 'packery',
-        itemSelector: '.img-item'
-    });
-
-    $newsGrid.imagesLoaded().progress( function() {
-         $newsGrid.isotope('layout');
-    });
-
-    $imgGrid.imagesLoaded().progress( function() {
-         $imgGrid.isotope('layout');
-    });
-
-     $('.about-accordion .nav-items .nav-item').click(function() {
+    $('.about-accordion .nav-items .nav-item').click(function() {
         var $this = $(this),
             $accordion = $this.attr('data-accordion');
 
@@ -149,6 +119,16 @@ $(function(){
         $('.about-accordion .main-accordion').removeClass('active');
         $this.addClass('active');
         $('.about-accordion .main-accordion[data-accordion="'+ $accordion +'"]').addClass('active');
+    });
+
+    //handle gallery in accordion
+    var $imgGrid = $('.accordion-gallery').isotope({
+        layoutMode: 'packery',
+        itemSelector: '.img-item'
+    });
+
+    $imgGrid.imagesLoaded().progress( function() {
+         $imgGrid.isotope('layout');
     });
 
     //handle cities accordion
@@ -181,17 +161,48 @@ $(function(){
         });
     });
 
-    //Isotope click function
-    $('.filter').click(function() {
-        $('.filter').removeClass('active');
-        $(this).addClass('active');
+//===================================
+//NEWS PAGE
+//===================================
 
-        var selector = $(this).attr('data-filter');
-        $('.charities').isotope({
-            filter: selector
-        });
-        return false;
+    //Isotope js, NEWS PAGE:
+    var $newsGrid = $('.news').isotope({
+        itemSelector: '.news-item',
+        percentPosition: true,
+        layoutMode: 'packery'
     });
+
+    $newsGrid.imagesLoaded().progress( function() {
+         $newsGrid.isotope('layout');
+    });
+
+//===================================
+//SINGLE NEWS PAGE
+//===================================
+
+    //Flickity
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      pageDots: false,
+      prevNextButtons: false,
+      contain: true
+    });
+
+//===================================
+//CHARITIES PAGE
+//===================================
+
+    //Isotope, CHARITIES PAGE:
+    var $charityGrid = $('.charities').isotope({
+        itemSelector: '.charities-item',
+        percentPosition: true,
+        layoutMode: 'fitRows'
+    });
+
+//===================================
+//COMPANIES PAGE
+//===================================
 
     //Isotope, COMPANIES PAGE:
     var $companiesGrid = $('.companies').isotope({
@@ -204,20 +215,7 @@ $(function(){
         $companiesGrid.isotope('layout');
     });
 
-    //companies Filter
-     $('.companies-filter .companies-filter-btn').click(function() {
-       $('.companies-filter').toggleClass('active');
-    });
-
-    //Isotope companies click function
-    $('.filter').click(function() {
-        $('.filter').removeClass('active');
-        $(this).addClass('active');
-
-        var selector = $(this).attr('data-filter');
-        $('.companies').isotope({
-            filter: selector
-        });
-        return false;
-    });
+//===================================
+//END
+//===================================
 });

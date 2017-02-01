@@ -75,17 +75,23 @@
     <section class="related-articles">
         <div class="buttons-slider">
             <div class="back-to-main">
-                <i class="fa fa-th-large" aria-hidden="true"></i><p>Back to main</p>
+                <a href="/news.php">
+                    <i class="fa fa-th-large" aria-hidden="true"></i><p>Back to main</p>
+                </a>
             </div>
             <div class="previous">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i><p>prev</p>
+                <a href="/news-single.php">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i><p>prev</p>
+                </a>
             </div>
             <div class="next">
-                <p>next</p><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <a href="/news-single.php">
+                    <p>next</p><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
         <div class="wrapper">
-        <h3>Related Articles</h3>
+            <h3>Related Articles</h3>
             <div class="main-carousel">
                 <div class="carousel-cell">
                     <img src="library/images/demo-news.jpg" alt="article image">

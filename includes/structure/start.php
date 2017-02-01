@@ -19,7 +19,9 @@
         <header class="header">
 
             <div class="logo">
-                <?php include 'includes/components/logo.php'; ?>
+                <a href="/index.php">
+                    <?php include 'includes/components/logo.php'; ?>
+                </a>
             </div>
 
             <div class="menu-btn">
@@ -29,10 +31,10 @@
             </div>
 
             <ul class="nav">
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Charities</a></li>
-                <li><a href="#">Companies</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="/partners.php">Partners</a></li>
+                <li><a href="/charities.php">Charities</a></li>
+                <li><a href="/companies.php">Companies</a></li>
+                <li><a href="/news.php">News</a></li>
                 <li class="has-child">
                     <a href="#">Race Locations</a>
                     <ul class="locations">

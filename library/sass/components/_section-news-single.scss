@@ -9,99 +9,88 @@
                 color: $grey;
                 h2 {
                     margin-bottom: 30px;
-                    font-weight: 700;
+                    line-height: 40px;
                     color: $darkgrey;
                     font-size: 28px;
-                    line-height: 40px;
+                    font-weight: 700;
                 }
-
                 img {
-                    width: 100%;
                     margin: 20px 0 10px;
+                    width: 100%;
                 }
-
                 p {
                     margin: 0 0 20px;
+                    line-height: 23px;
                     font-size: 15px;
                     font-weight: 300;
-                    line-height: 23px;
                 }
-
                 h3 {
-                    font-size: 16px;
-                    text-transform: uppercase;
-                    font-weight: 800;
-                    color: $darkgrey;
-                    margin-bottom: 15px;
                     margin-top: 30px;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                    line-height: 26px;
+                    color: $darkgrey;
+                    font-size: 16px;
+                    font-weight: 800;
                 }
-
                 h4 {
                     margin: 20px 0 15px;
                     color: $darkgrey;
-                    font-weight: 700;
                     font-size: 16px;
+                    font-weight: 700;
                 }
-
                 ol {
                     margin-bottom: 20px;
                     li {
-                        font-size: 15px;
                         margin-bottom: 5px;
+                        font-size: 15px;
                     }
                 }
-
                 ul {
                     margin-bottom: 20px;
                     li {
-                        font-size: 15px;
                         margin-bottom: 5px;
+                        font-size: 15px;
                     }
-
                 }
-
                 blockquote {
-                    font-weight: 800;
-                    font-size: 23px;
-                    border-color: $orange;
                     margin: 40px 0 50px;
+                    border-color: $orange;
+                    font-size: 23px;
+                    font-weight: 800;
                 }
-
-
             }
-
             .col-md-3 {
                 padding: 0;
                 .share-wrapper {
+                    margin: 0;
                     background-color: $lightestgrey;
                     padding: 25px 20px 40px;
-                    margin: 0px;
-
                     h3 {
+                        margin-bottom: 10px;
                         font-size: 18px;
                         font-weight: 800;
-                        margin-bottom: 10px;
                     }
                     ul {
                         float: left;
-                        padding: 0;
                         margin-top: 5px;
                         margin-bottom: 65px;
+                        padding: 0;
                         li {
-                            display: inline-block;;
-                            text-decoration: none;
+                            display: inline-block;
+                            position: relative;
                             margin-right: 15px;
-                            background-color: $orange;
                             border-radius: 50%;
-                            color: $white;
-                            font-size: 18px;
+                            background-color: $orange;
                             width: 35px;
                             height: 35px;
-                            position: relative;
+                            text-decoration: none;
+                            color: $white;
+                            font-size: 18px;;
                             a {
-                                color: $white;
-                                padding: 10px;
                                 display: block;
+                                padding: 10px;
+                                color: $white;
                                 i {
                                     position: absolute;
                                     top: 50%;
@@ -115,10 +104,10 @@
                         margin-bottom: 25px;
                     }
                     .date {
+                        margin-top: 12px;
+                        margin-bottom: 0;
                         color: $orange;
                         font-size: 12px;
-                        margin-bottom: 0;
-                        margin-top: 12px;
                     }
                     .article-p-heading {
                         color: $darkgrey;
@@ -157,15 +146,15 @@
             .row {
                 .col-md-9 {
                     h2 {
-                        font-size: 24px;
                         line-height: 34px;
+                        font-size: 24px;
                     }
                     blockquote {
-                        font-weight: 800;
-                        font-size: 20px;
-                        border-color: $orange;
                         margin: 30px 0 40px;
+                        border-color: $orange;
                         line-height: 30px;
+                        font-size: 20px;
+                        font-weight: 800;
                     }
                     h3 {
                         line-height: 27px;

@@ -12,17 +12,25 @@
 
     <?php include 'includes/components/cta_banner.php'; ?>
 
-    <!-- content -->
-    <section class="news-filter">
-        <div class="filter-btn">
+    <!-- filters -->
+    <section class="filters">
+        <div class="filters-btn">
             <p>filter</p><i class="fa fa-chevron-down" aria-hidden="true"></i>
             <div class="view-all">
-                <a href="#" class="btn btn-orange-hollow filter" data-filter="*">View All</a>
+                <div class="btn btn-orange-hollow filter" data-filter="*">View All</div>
                 <i class="fa fa-times" aria-hidden="true"></i>
             </div>
         </div>
         <div class="filter-dropdown">
-            <ul>
+            <ul class="filter-group small">
+                <li class="filter" data-filter=".2017">2017</li>
+                <li class="filter" data-filter=".2015">2015</li>
+                <li class="filter" data-filter=".2014">2014</li>
+                <li class="filter" data-filter=".2013">2013</li>
+                <li class="filter" data-filter=".2012">2012</li>
+                <li class="filter" data-filter=".2011">2011</li>
+            </ul>
+            <ul class="filter-group large">
                 <li class="filter" data-filter=".dubai">Dubai</li>
                 <li class="filter" data-filter=".hongkong">Hong Kong</li>
                 <li class="filter" data-filter=".london">London</li>
@@ -36,9 +44,12 @@
             </ul>
         </div>
     </section>
+    <!-- /Filters -->
+
     <section class="news">
         <div class="grid-sizer"></div>
         <div class="news-item dubai">
+            <a href="/news-single.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns to Sydney for its second year</h3>
@@ -47,17 +58,20 @@
                 <li>Hong Kong</li>
             </ul>
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to</p>
+            <div class="btn btn-light btn-small">Read More</div>
 
         </div>
         <div class="news-item hongkong">
+            <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/250x100/" alt="news item">
             <p class="date">14 November 2016 at 10:15 AM</p>
             <h3>Dubai to host first relay of the 2017 Global Series</h3>
             <ul></ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus praesentium voluptatum accusantium officiis assumenda obcaecati eum, deserunt</p>
-            <a href="#" class="btn btn-light btn-small">Read More</a>
+            <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item london">
+            <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x100/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>English Schools Foundation wins Hong Kong relay </h3>
@@ -66,9 +80,10 @@
                 <li>Hong Kong</li>
             </ul>
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores temporibus explicabo officia perspiciatis</p>
-            <a href="#" class="btn btn-light btn-small">Read More</a>
+            <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item newyork">
+            <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x80/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns </h3>
@@ -78,9 +93,10 @@
             </ul>
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a dolores quisquam, enim magni dolorem veniam
             </p>
-            <a href="#" class="btn btn-light btn-small">Read More</a>
+            <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item singapore">
+            <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x150/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns to Sydney for its second year</h3>
@@ -89,15 +105,16 @@
                 <li>Hong Kong</li>
             </ul>
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Lorem ipsum dolor sit amet </p>
-            <a href="#" class="btn btn-light btn-small">Read More</a>
+            <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item sydney">
+            <a href="/news-single.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns to Sydney for its second year</h3>
 
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to</p>
-            <a href="#" class="btn btn-light btn-small">Read More</a>
+            <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="load-more">
             <a href="#" class="btn btn-load-more">Load More</a>

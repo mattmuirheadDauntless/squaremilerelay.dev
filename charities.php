@@ -12,17 +12,17 @@
 
     <?php include 'includes/components/cta_banner.php'; ?>
 
-    <!-- content -->
-    <section class="charities-filter">
-        <div class="charities-filter-btn">
+    <!-- filters -->
+    <section class="filters">
+        <div class="filters-btn">
             <p>filter</p><i class="fa fa-chevron-down" aria-hidden="true"></i>
             <div class="view-all">
-                <a href="#" class="btn btn-orange-hollow filter" data-filter="*">View All</a>
+                <div class="btn btn-orange-hollow filter" data-filter="*">View All</div>
                 <i class="fa fa-times" aria-hidden="true"></i>
             </div>
         </div>
         <div class="filter-dropdown">
-            <ul class="year-filter">
+            <ul class="filter-group small">
                 <li class="filter" data-filter=".2017">2017</li>
                 <li class="filter" data-filter=".2015">2015</li>
                 <li class="filter" data-filter=".2014">2014</li>
@@ -30,7 +30,7 @@
                 <li class="filter" data-filter=".2012">2012</li>
                 <li class="filter" data-filter=".2011">2011</li>
             </ul>
-            <ul class="country-filter">
+            <ul class="filter-group large">
                 <li class="filter" data-filter=".dubai">Dubai</li>
                 <li class="filter" data-filter=".hongkong">Hong Kong</li>
                 <li class="filter" data-filter=".london">London</li>
@@ -44,6 +44,8 @@
             </ul>
         </div>
     </section>
+    <!-- /Filters -->
+
     <section class="charities">
         <div class="charities-item dubai 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
