@@ -1,0 +1,78 @@
+.input-wrapper {
+    position: relative;
+    padding: 27px 0 20px;
+    label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(5px);
+        transition: all ease-in .1s;
+        opacity: 0;
+
+        transform-origin: bottom center;
+    }
+    .input {
+        border: 1px solid $lightergrey;
+        border-radius: 3px;
+        background-color: $lightergrey;
+        padding: 13px 15px;
+        width: 100%;
+        font-size: 16px;
+        &:focus {
+            outline: none;
+        }
+        &:not(:placeholder-shown) + label {
+            transform: translateY(0);
+            transition: all ease-in .1s;
+            opacity: 1;
+        }
+        &:not(:focus):not(:placeholder-shown):valid {
+            border: 1px solid $green;
+        }
+        &:not(:focus):not(:placeholder-shown):not(:valid) {
+            border: 1px solid $red;
+        }
+        &:not(:focus):not(:placeholder-shown):valid ~ .valid,
+        &:not(:focus):not(:placeholder-shown):not(:valid).invalid ~ .in-valid {
+            transform: translateY(0);
+            transition: all ease-in .2s;
+            opacity: 1;
+        }
+        &:not(:focus):not(:placeholder-shown):valid ~ .validation-icon,
+        &:not(:focus):not(:placeholder-shown):not(:valid).invalid ~ .validation-icon {
+            transition: all ease-in .2s;
+            opacity: 1;
+        }
+        &:not(:focus):not(:placeholder-shown):valid ~ .validation-icon:before {
+            color: $green;
+            content: "\f00c";
+        }
+        &:not(:focus):not(:placeholder-shown):not(:valid).invalid ~ .validation-icon:before {
+            color: $red;
+            content: "\f12a";
+        }
+    }
+    .validation-icon {
+        position: absolute;
+        top: 54%;
+        right: 15px;
+        transform: translateY(-50%);
+        transition: all ease-in .2s;
+        opacity: 0;
+        font-size: 20px;
+    }
+    .msg {
+        position: absolute;
+        right: 5px;
+        bottom: -2px;
+        transform: translateY(-5px);
+        transition: all ease-in .2s;
+        opacity: 0;
+        &.valid {
+            color: $green;
+        }
+        &.in-valid {
+            color: $red;
+        }
+    }
+}
