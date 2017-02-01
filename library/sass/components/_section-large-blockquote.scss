@@ -1,0 +1,40 @@
+.large-blockquote {
+    padding: 150px 0 180px;
+    h2 {
+        position: relative;
+        margin: 0;
+        line-height: 58px;
+        font-size: 40px;
+        font-weight: 800;
+        &:before {
+            position: absolute;
+            top: -22px;
+            left: 47%;
+            transform: translate(0, -50%);
+            color: $orange;
+            font-size: 120px;
+            font-weight: 800;
+            font-style: italic;
+            content: '"';
+        }
+    }
+}
+
+@include desktop {
+    .large-blockquote {
+        padding: 100px 0 130px;
+    }
+}
+
+@include phone {
+    .large-blockquote {
+        padding: 40px 0 110px;
+        h2 {
+            line-height: 52px;
+            font-size: 33px;
+            &:before {
+                left: 38%;
+            }
+        }
+    }
+}

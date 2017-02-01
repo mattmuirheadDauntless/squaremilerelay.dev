@@ -55,7 +55,7 @@
             img {
                 position: absolute;
                 right: -5px;
-                bottom: -5px;
+                bottom: -6%;
                 transform: scale(1);
                 transition: all ease-in .4s .2s;
                 z-index: 1;
@@ -147,6 +147,64 @@
             span {
                 width: 310px;
                 font-size: 20px;
+            }
+        }
+    }
+}
+
+@include tablet-l {
+    .next-races {
+        .races {
+            float: none;
+            width: 100%;
+            .race {
+                width: 50%;
+                &:first-child {
+                    width: 100%;
+                }
+                img {
+                    max-width: 400px;
+                    height: auto;
+                }
+            }
+        }
+        .view-more {
+            float: left;
+            transform: none;
+            width: 100%;
+            height: auto;
+            span {
+                position: relative;
+                transform: none;
+                margin: 0;
+                padding: 20px 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include phone {
+    .next-races {
+        .races {
+            float: none;
+            width: 100%;
+            .race {
+                float: none;
+                width: 100%;
+            }
+        }
+        .view-more {
+            float: left;
+            transform: none;
+            width: 100%;
+            height: auto;
+            span {
+                position: relative;
+                transform: none;
+                margin: 0;
+                padding: 20px 0;
+                width: 100%;
             }
         }
     }

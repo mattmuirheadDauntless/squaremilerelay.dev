@@ -116,6 +116,72 @@ $(function(){
     });
 
     //Isotope charities click function
+
+
+    //init Isotope for News Index
+    var $newsGrid = $('.news').isotope({
+        itemSelector: '.news-item',
+        percentPosition: true,
+        masonry: {
+        // use outer width of grid-sizer for columnWidth
+        columnWidth: '.grid-sizer'
+        }
+    });
+
+    var $imgGrid = $('.accordion-gallery').isotope({
+        layoutMode: 'packery',
+        itemSelector: '.img-item'
+    });
+
+    $newsGrid.imagesLoaded().progress( function() {
+         $newsGrid.isotope('layout');
+    });
+
+    $imgGrid.imagesLoaded().progress( function() {
+         $imgGrid.isotope('layout');
+    });
+
+     $('.about-accordion .nav-items .nav-item').click(function() {
+        var $this = $(this),
+            $accordion = $this.attr('data-accordion');
+
+        $('.about-accordion .nav-items .nav-item').removeClass('active');
+        $('.about-accordion .main-accordion').removeClass('active');
+        $this.addClass('active');
+        $('.about-accordion .main-accordion[data-accordion="'+ $accordion +'"]').addClass('active');
+    });
+
+    //handle cities accordion
+    $('.race-locations .cities li').click(function() {
+        var $this = $(this),
+            $city = $this.attr('data-city');
+
+        $('.race-locations .cities li').removeClass('active');
+        $this.addClass('active');
+
+        $('.race-locations .city').removeClass('active');
+        $('.race-locations .city').each(function(){
+            var $thisCity = $(this).attr('data-city');
+
+            if ($thisCity == $city) {
+                $(this).addClass('active');
+            }
+
+        });
+    });
+
+    //handle countdown for homepage
+    $('.race-locations .city .timer').each(function(){
+        var $this = $(this),
+            $date = $this.attr('data-date');
+        $this.countdown($date, function(event) {
+            $this.text(
+                event.strftime('%D:%H:%M:%S')
+            );
+        });
+    });
+
+    //Isotope click function
     $('.filter').click(function() {
         $('.filter').removeClass('active');
         $(this).addClass('active');
@@ -135,7 +201,7 @@ $(function(){
     });
 
     $companiesGrid.imagesLoaded().progress( function() {
-         $companiesGrid.isotope('layout');
+        $companiesGrid.isotope('layout');
     });
 
     //companies Filter

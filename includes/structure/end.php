@@ -50,6 +50,8 @@
         <script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
         <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
         <script src="bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+        <script src="https://npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
+        <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
         <!-- Main JS -->
         <script src="library/js/min/plugins-min.js"></script>
         <script src="library/js/min/script-min.js"></script>
