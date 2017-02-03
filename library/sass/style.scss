@@ -29,10 +29,16 @@
 
 //Import components SCSS here
 //This area should be for individual components/modules such as sliders, buttons etc.
+// General
 @import "components/_cta-banner";
 @import "components/_buttons";
 @import "components/_modals";
 @import "components/_inputs";
+@import "components/_filters";
+@import "components/_tabs";
+@import "components/_section-main-heading";
+@import "components/_tables";
+@import "components/_notifications";
 // Homepage
 @import "components/_section-hero-home";
 @import "components/_section-next-races";
@@ -44,11 +50,13 @@
 @import "components/_section-large-blockquote";
 @import "components/_section-home-results";
 @import "components/_accordion-race-locations";
-@import "components/_section-main-heading";
-@import "components/_filters";
+//My Account
+@import "components/_account-my-profile";
+//Page Specific
 @import "components/_section-news";
 @import "components/_section-news-single-heading";
 @import "components/_section-news-single";
 @import "components/_section-related-articles";
 @import "components/_section-charities";
 @import "components/_section-companies";
+@import "components/_section-results-table";
