@@ -46,75 +46,80 @@
     </section>
     <!-- /Filters -->
 
-    <section class="charities">
-        <div class="charities-item dubai 2017">
+    <section class="charities grid">
+        <div class="isotope-no-items inactive">
+            <h2>Sorry!</h2>
+            <h3>There aren't any results for your filter search</h3>
+            <div class="btn btn-black filter" data-filter="*">View all categories</div>
+        </div>
+        <div class="charities-item grid-item dubai 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Emirates Red Crescent</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
 
         </div>
-        <div class="charities-item dubai 2015 2014">
+        <div class="charities-item grid-item dubai 2015 2014">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Richard House Children's Hospice</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item dubai 2014 2012">
+        <div class="charities-item grid-item dubai 2014 2012">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>IndoChina Starfish Foundation</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item hongkong 2014 2011">
+        <div class="charities-item grid-item hongkong 2014 2011">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Emirates Red Crescent</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item london 2013 2011">
+        <div class="charities-item grid-item london 2013 2011">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Emirates Red Crescent</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item newyork 2013 2017">
+        <div class="charities-item grid-item newyork 2013 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Richard House Children's Hospice</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item singapore 2012 2015">
+        <div class="charities-item grid-item singapore 2012 2015">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>IndoChina Starfish Foundation</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item sydney 2012 2011">
+        <div class="charities-item grid-item sydney 2012 2011">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Emirates Red Crescent</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item sanfrancisco 2012 2014">
+        <div class="charities-item grid-item sanfrancisco 2012 2014">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Emirates Red Crescent</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item saopaolo 2012 2013">
+        <div class="charities-item grid-item saopaolo 2012 2013">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Richard House Children's Hospice</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item shanghai 2012 2017">
+        <div class="charities-item grid-item shanghai 2012 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>IndoChina Starfish Foundation</h3>
             <h4>Global Charity</h4>
             <h5>Dubai 2017</h5>
         </div>
-        <div class="charities-item tokyo 2011 2017">
+        <div class="charities-item grid-item tokyo 2011 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Emirates Red Crescent</h3>
             <h4>Global Charity</h4>

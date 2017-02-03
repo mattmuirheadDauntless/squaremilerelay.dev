@@ -28,6 +28,8 @@
         .global-stats {
             float: right;
             background-color: $offwhite;
+            background-image: url('../images/global-stats.png');
+            background-size: cover;
             padding: 35px 20px 15px;
             width: 200px;
             h4 {

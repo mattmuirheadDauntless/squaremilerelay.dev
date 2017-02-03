@@ -1,0 +1,106 @@
+.table-wrapper {
+    table {
+        margin-bottom: 100px;
+        width: 100%;
+        thead {
+            tr,
+            th {
+                background-color: $white !important;
+            }
+        }
+        tr {
+            background-color: $offwhite;
+            &:nth-child(odd) {
+                background-color: $lightergrey;
+            }
+            th {
+                position: relative;
+                cursor: pointer;
+                padding: 10px;
+                text-align: left;
+                font-weight: 700;
+                &:first-child {
+                    padding-left: 40px;
+                    span {
+                        left: 17px;
+                    }
+                }
+                &.header {
+                    position: relative;
+                    z-index: 5;
+                    width: inherit;
+                }
+                &.headerSortDown {
+                    span {
+                        opacity: 1;
+                        border-width: 12px 8px 0 8px;
+                        border-style: solid;
+                        border-color: $orange transparent transparent transparent;
+                    }
+                }
+                &.headerSortUp {
+                    span {
+                        opacity: 1;
+                        border-width: 0 8px 12px 8px;
+                        border-style: solid;
+                        border-color: transparent transparent $orange transparent;
+                    }
+                }
+                span {
+                    position: absolute;
+                    top: 14px;
+                    left: -15px;
+                    opacity: 0;
+                    margin-right: 10px;
+                    border-width: 12px 8px 0 8px;
+                    border-style: solid;
+                    border-color: $orange transparent transparent transparent;
+                    width: 0;
+                    height: 0;
+                }
+            }
+            td {
+                padding: 20px;
+                text-align: left;
+                font-size: 18px;
+                &:first-child {
+                    padding-left: 40px;
+                }
+                img {
+                    margin-right: 20px;
+                    width: auto;
+                    height: 50px;
+                }
+                strong {
+                    letter-spacing: 1px;
+                    font-size: 22px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
+
+@include tablet-l {
+    .table-wrapper {
+        max-width: 100%;
+
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        table {
+            th,
+            td {
+                vertical-align: top;
+            }
+            th {
+                text-align: center;
+            }
+            tr td {
+                font-size: 14px;
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.results-table {
+    .tab {
+        width: calc(50% - 40px);
+    }
+}
+
+@include tablet-l {
+    .results-table {
+        .tab {
+            width: calc(50% - 20px);
+        }
+    }
+}

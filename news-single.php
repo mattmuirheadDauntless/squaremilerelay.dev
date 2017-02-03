@@ -92,8 +92,9 @@
         </div>
         <div class="wrapper">
             <h3>Related Articles</h3>
-            <div class="main-carousel">
+            <div class="related-articles-slider">
                 <div class="carousel-cell">
+                    <a href="/news-single.php" class="cover-link"></a>
                     <img src="library/images/demo-news.jpg" alt="article image">
                     <p class="date">29 November 2016 at 10:15 AM</p>
                     <h2>Bloomberg Square Mile Relay returns to Sydney for its second year</h2>
@@ -102,9 +103,10 @@
                         <li>Hong Kong</li>
                     </ul>
                     <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017</p>
-                    <a href="#" class="btn btn-light">Read more</a>
+                    <div class="btn btn-light">Read more</div>
                 </div>
                 <div class="carousel-cell">
+                    <a href="/news-single.php" class="cover-link"></a>
                     <img src="library/images/demo-news.jpg" alt="article image">
                     <p class="date">29 November 2016 at 10:15 AM</p>
                     <h2>Dubai to host first relay of the 2017 Global Series</h2>
@@ -113,9 +115,10 @@
                         <li>Hong Kong</li>
                     </ul>
                     <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017</p>
-                    <a href="#" class="btn btn-light">Read more</a>
+                    <div class="btn btn-light">Read more</div>
                 </div>
                 <div class="carousel-cell">
+                    <a href="/news-single.php" class="cover-link"></a>
                     <img src="library/images/demo-news.jpg" alt="article image">
                     <p class="date">29 November 2016 at 10:15 AM</p>
                     <h2>English Schools Foundation wins Hong Kong relay second year in a row</h2>
@@ -124,9 +127,10 @@
                         <li>Hong Kong</li>
                     </ul>
                     <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017</p>
-                    <a href="#" class="btn btn-light">Read more</a>
+                    <div class="btn btn-light">Read more</div>
                 </div>
                 <div class="carousel-cell">
+                    <a href="/news-single.php" class="cover-link"></a>
                     <img src="library/images/demo-news.jpg" alt="article image">
                     <p class="date">29 November 2016 at 10:15 AM</p>
                     <h2>Bloomberg Square Mile Relay returns to Sydney for its second year</h2>
@@ -135,9 +139,10 @@
                         <li>Hong Kong</li>
                     </ul>
                     <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017</p>
-                    <a href="#" class="btn btn-light">Read more</a>
+                    <div class="btn btn-light">Read more</div>
                 </div>
                 <div class="carousel-cell">
+                    <a href="/news-single.php" class="cover-link"></a>
                     <img src="library/images/demo-news.jpg" alt="article image">
                     <p class="date">29 November 2016 at 10:15 AM</p>
                     <h2>Dubai to host first relay of the 2017 Global Series</h2>
@@ -146,9 +151,10 @@
                         <li>Hong Kong</li>
                     </ul>
                     <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017</p>
-                    <a href="#" class="btn btn-light">Read more</a>
+                    <div class="btn btn-light">Read more</div>
                 </div>
                 <div class="carousel-cell">
+                    <a href="/news-single.php" class="cover-link"></a>
                     <img src="library/images/demo-news.jpg" alt="article image">
                     <p class="date">29 November 2016 at 10:15 AM</p>
                     <h2>English Schools Foundation wins Hong Kong relay second year in a row</h2>
@@ -157,7 +163,7 @@
                         <li>Hong Kong</li>
                     </ul>
                     <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017</p>
-                    <a href="#" class="btn btn-light">Read more</a>
+                    <div class="btn btn-light">Read more</div>
                 </div>
             </div>
         </div>
