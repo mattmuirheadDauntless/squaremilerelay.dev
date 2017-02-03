@@ -106,8 +106,8 @@
                         </div>
                     </ul>
                 </li>
-                <li><a href="#">Results</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="/results.php">Results</a></li>
+                <li><a href="/gallery.php">Gallery</a></li>
             </ul>
 
             <div class="header-account">

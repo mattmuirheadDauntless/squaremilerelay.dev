@@ -97,9 +97,10 @@
             padding-left: 89px;
             font-weight: 800;
         }
-        .main-carousel {
+        .related-articles-slider {
             padding: 0 60px;
             .carousel-cell {
+                position: relative;
                 padding: 0 30px;
                 width: 33.33%;
                 img {
@@ -157,7 +158,7 @@
             h3 {
                 padding-left: 30px;
             }
-            .main-carousel {
+            .related-articles-slider {
                 padding: 0;
                 .carousel-cell {
                     width: 50%;
@@ -174,6 +175,7 @@
                 margin-left: 0;
                 border-bottom: 1px solid $lightergrey;
                 width: 100%;
+                max-width: none;
             }
             .previous {
                 position: relative;
@@ -197,7 +199,7 @@
             h3 {
                 padding-left: 0;
             }
-            .main-carousel {
+            .related-articles-slider {
                 .carousel-cell {
                     padding: 0;
                     width: 100%;

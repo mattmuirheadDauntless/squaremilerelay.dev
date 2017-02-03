@@ -46,9 +46,13 @@
     </section>
     <!-- /Filters -->
 
-    <section class="news">
-        <div class="grid-sizer"></div>
-        <div class="news-item dubai">
+    <section class="news grid">
+        <div class="isotope-no-items inactive">
+            <h2>Sorry!</h2>
+            <h3>There aren't any results for your filter search</h3>
+            <div class="btn btn-black filter" data-filter="*">View all categories</div>
+        </div>
+        <div class="news-item grid-item dubai">
             <a href="/news-single.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
@@ -61,7 +65,7 @@
             <div class="btn btn-light btn-small">Read More</div>
 
         </div>
-        <div class="news-item hongkong">
+        <div class="news-item grid-item hongkong">
             <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/250x100/" alt="news item">
             <p class="date">14 November 2016 at 10:15 AM</p>
@@ -70,7 +74,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus praesentium voluptatum accusantium officiis assumenda obcaecati eum, deserunt</p>
             <div class="btn btn-light btn-small">Read More</div>
         </div>
-        <div class="news-item london">
+        <div class="news-item grid-item london">
             <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x100/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
@@ -82,7 +86,7 @@
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores temporibus explicabo officia perspiciatis</p>
             <div class="btn btn-light btn-small">Read More</div>
         </div>
-        <div class="news-item newyork">
+        <div class="news-item grid-item newyork">
             <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x80/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
@@ -95,7 +99,7 @@
             </p>
             <div class="btn btn-light btn-small">Read More</div>
         </div>
-        <div class="news-item singapore">
+        <div class="news-item grid-item singapore">
             <a href="/news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x150/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
@@ -107,7 +111,7 @@
             <p>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Lorem ipsum dolor sit amet </p>
             <div class="btn btn-light btn-small">Read More</div>
         </div>
-        <div class="news-item sydney">
+        <div class="news-item grid-item sydney">
             <a href="/news-single.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
