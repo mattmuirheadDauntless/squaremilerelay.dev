@@ -1,0 +1,45 @@
+.notification {
+    color: $white;
+    width: 100%;
+    clear: both;
+    position: relative;
+    padding: 15px 60px 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    &.required {
+        @extend .notification;
+        background-color: $lightorange;
+    }
+    .fa-exclamation-triangle {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 20px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        strong {
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translate(0, -50%);
+        color: $white;
+        opacity: 1;
+        font-weight: 400;
+        text-shadow: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        i {
+            margin-left: 10px;
+            font-size: 20px;
+            vertical-align: -2px;
+        }
+    }
+}

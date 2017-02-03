@@ -4,15 +4,17 @@ $(function(){
 //===================================
 
     // Fix cta in header if waypoint hit
-    new Waypoint({
-        element: $('#ctaBanner'),
-        handler: function() {
-            $('body').toggleClass('cta-fixed');
-        },
-        offset: function() {
-            return -this.element.height();
-        }
-    });
+    if ($('#ctaBanner').length > 0) {
+        new Waypoint({
+            element: $('#ctaBanner'),
+            handler: function() {
+                $('body').toggleClass('cta-fixed');
+            },
+            offset: function() {
+                return -this.element.height();
+            }
+        });
+    }
 
     // Add class to header on scroll from top
     new Waypoint({
@@ -42,13 +44,12 @@ $(function(){
     });
 
     // input validation
-    // email
-    $('input[type="email"]').on('input', function() {
-        var input=$(this);
-        var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-        var is_email=re.test(input.val());
-        if(is_email){input.removeClass("invalid").addClass("valid");}
-        else{input.removeClass("valid").addClass("invalid");}
+    $('input').on('input', function() {
+        if ($(this).is(':valid') == true) {
+            $(this).removeClass("invalid").addClass("valid");
+        } else {
+            $(this).removeClass("valid").addClass("invalid");
+        }
     });
     //End input validation
 
@@ -75,28 +76,75 @@ $(function(){
             });
         }
 
-        //if news
+        $('.isotope-no-items').addClass('inactive');
+
+        //if news page
         if ($('.news').length > 0) {
             $('.news').isotope({
                 filter: $selector
             });
         }
 
-        //if charities
+        //if charities page
         if ($('.charities').length > 0) {
             $('.charities').isotope({
                 filter: $selector
             });
         }
 
-        //if companies
-        if ($('.charities').length > 0) {
-            $('.charities').isotope({
+        //if companies page
+        if ($('.companies').length > 0) {
+            $('.companies').isotope({
                 filter: $selector
             });
+        }
+
+        //if results page
+        if ($('.results-table').length > 0){
+            $('.results-table tr').addClass('hide');
+            $('.results-table tr'+$selector).removeClass('hide');
+
+            //if no results
+            setTimeout(function(){
+                if ( $('.results-table tr:visible').length <= 0 ) {
+                    $('.results-table').height($('.isotope-no-items').height() + 200);
+                    $('.isotope-no-items').removeClass('inactive');
+                }
+            }, 500);
+
+        } else {
+            //if no results
+            setTimeout(function(){
+                if ( $('.grid-item:visible').length <= 0 ) {
+                    $('.grid').height($('.isotope-no-items').height() + 80);
+                    $('.isotope-no-items').removeClass('inactive');
+                }
+            }, 500)
         }
 
         return false;
+    });
+
+    //handle tabs
+    $('.tabs-container .tab').click(function() {
+        var $this = $(this),
+            $tab = $this.attr('data-tab');
+
+        $('.tabs-container .tab').removeClass('active');
+        $this.addClass('active');
+        $('.tabs-container .tab-wrapper').removeClass('active');
+        $('.tabs-container .tab-wrapper[data-tab='+ $tab +']').addClass('active');
+    });
+
+    //handle tables
+    $(".tablesorter").tablesorter();
+
+    //hide notification
+    $('.notification .close').click(function() {
+        var $this = $(this),
+            $notification = $this.parent('.notification');
+
+        $notification.addClass('hide');
     });
 
 //===================================
@@ -181,12 +229,13 @@ $(function(){
 //===================================
 
     //Flickity
-    $('.main-carousel').flickity({
-      // options
-      cellAlign: 'left',
-      pageDots: false,
-      prevNextButtons: false,
-      contain: true
+    $('.related-articles-slider').flickity({
+        cellAlign: 'left',
+        pageDots: false,
+        prevNextButtons: false,
+        contain: true,
+        wrapAround: true,
+        autoPlay: 8000
     });
 
 //===================================
@@ -198,6 +247,11 @@ $(function(){
         itemSelector: '.charities-item',
         percentPosition: true,
         layoutMode: 'fitRows'
+    });
+
+    //images loaded
+    $charityGrid.imagesLoaded().progress( function() {
+        $charityGrid.isotope('layout');
     });
 
 //===================================
@@ -214,6 +268,47 @@ $(function(){
     $companiesGrid.imagesLoaded().progress( function() {
         $companiesGrid.isotope('layout');
     });
+
+//===================================
+//RESULTS PAGE
+//===================================
+
+    $('.results-table .tab').click(function() {
+        var $this = $(this),
+            $tab = $this.attr('data-tab');
+
+        $('.results-table .tab').removeClass('active');
+        $this.addClass('active');
+        $('.results-table .table-wrapper').removeClass('active');
+        $('.results-table .table-wrapper[data-tab='+ $tab +']').addClass('active');
+    });
+
+    $(".tablesorter").tablesorter();
+
+//===================================
+//MY ACCOUNT PAGE
+//===================================
+
+$('.edit-btn').click(function() {
+    $('.my-profile').addClass('edit');
+});
+
+$('.save-btn').click(function() {
+    var $required = 0;
+
+    $('.required').each(function() {
+        var $this = $(this).find('input');
+        if ($this.val() == "" || $('.input').hasClass('invalid')){
+            $required = 1;
+        }
+    });
+
+    if ($required != 1){
+        $('.my-profile').removeClass('edit');
+    } else {
+        $('.notification.required').removeClass('hide');
+    }
+});
 
 //===================================
 //END
