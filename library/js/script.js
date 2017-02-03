@@ -154,4 +154,95 @@ $(function(){
         });
         return false;
     });
+
+    //Isotope, PARTNERS PAGE:
+    var $partnersGrid = $('.partners').isotope({
+        itemSelector: '.partners-item',
+        percentPosition: true,
+        layoutMode: 'fitRows'
+    });
+
+    $partnersGrid.imagesLoaded().progress( function() {
+         $partnersGrid.isotope('layout');
+    });
+
+    //partners Filter
+     $('.partners-filter .partners-filter-btn').click(function() {
+       $('.partners-filter').toggleClass('active');
+    });
+
+    //Isotope partners click function
+    $('.filter').click(function() {
+        $('.filter').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $('.partners').isotope({
+            filter: selector
+        });
+        return false;
+    });
+
+
+    //Isotope, SINGLE-COMPANY PAGE:
+    var $singleCompanyGrid = $('.single-company').isotope({
+        itemSelector: '.single-company-item',
+        percentPosition: true,
+        layoutMode: 'fitRows'
+    });
+
+    $singleCompanyGrid.imagesLoaded().progress( function() {
+         $singleCompanyGrid.isotope('layout');
+    });
+
+    //single-company Filter
+     $('.single-company-filter .single-company-filter-btn').click(function() {
+       $('.single-company-filter').toggleClass('active');
+    });
+
+    //Isotope partners click function
+    $('.filter').click(function() {
+        $('.filter').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $('.single-company').isotope({
+            filter: selector
+        });
+        return false;
+    });
+
+    //Isotope, GLOBAL-GALLERY PAGE, vid-gallery:
+    var $globalGalleryGrid = $('.vid-gallery').isotope({
+        itemSelector: '.vid-item',
+        percentPosition: true,
+        layoutMode: 'fitRows'
+    });
+
+    $globalGalleryGrid.imagesLoaded().progress( function() {
+         $globalGalleryGrid.isotope('layout');
+    });
+
+    //global-gallery Filter
+     $('.global-gallery-filter .global-gallery-filter-btn').click(function() {
+       $('.global-gallery-filter').toggleClass('active');
+    });
+
+
+
+    //Isotope, GLOBAL-GALLERY PAGE, img-gallery:
+    var $globalGalleryGrid = $('.img-gallery').isotope({
+        itemSelector: '.img-item',
+        percentPosition: true,
+        layoutMode: 'masonry'
+    });
+
+    $globalGalleryGrid.imagesLoaded().progress( function() {
+         $globalGalleryGrid.isotope('layout');
+    });
+
+    //global-gallery Filter
+     $('.global-gallery-filter .global-gallery-filter-btn').click(function() {
+       $('.global-gallery-filter').toggleClass('active');
+    });
 });

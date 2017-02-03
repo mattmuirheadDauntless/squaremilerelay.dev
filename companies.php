@@ -46,77 +46,85 @@
     </section>
     <section class="companies">
         <div class="companies-item dubai 2017">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>36 South Capital Advisors</h3>
+            <h4>3 teams</h4>
 
         </div>
         <div class="companies-item dubai 2015 2014">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Richard House Children's Hospice</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bloomberg</h3>
+            <h4>7 teams</h4>
         </div>
         <div class="companies-item dubai 2014 2012">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>IndoChina Starfish Foundation</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Amundi Asset</h3>
+            <h4>12 teams</h4>
         </div>
         <div class="companies-item hongkong 2014 2011">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bank of Montreal</h3>
+            <h4>2 teams</h4>
         </div>
         <div class="companies-item london 2013 2011">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Allen &amp; Overy</h3>
+            <h4>1 team</h4>
         </div>
         <div class="companies-item newyork 2013 2017">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Richard House Children's Hospice</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bloomberg</h3>
+            <h4>2 teams</h4>
         </div>
         <div class="companies-item singapore 2012 2015">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>IndoChina Starfish Foundation</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Amundi Asset</h3>
+            <h4>12 teams</h4>
         </div>
         <div class="companies-item sydney 2012 2011">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bank of Montreal</h3>
+            <h4>2 teams</h4>
         </div>
         <div class="companies-item sanfrancisco 2012 2014">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>36 South Capital Advisors</h3>
+            <h4>3 teams</h4>
         </div>
         <div class="companies-item saopaolo 2012 2013">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Richard House Children's Hospice</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bloomberg</h3>
+            <h4>7 teams</h4>
         </div>
         <div class="companies-item shanghai 2012 2017">
-            <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>IndoChina Starfish Foundation</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Amundi Asset Management</h3>
+            <h4>12 teams</h4>
         </div>
         <div class="companies-item tokyo 2011 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <h3>Bank of Montreal</h3>
+            <h4>2 teams</h4>
+        </div>
+        <div class="companies-item sanfrancisco 2012 2014">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Allen &amp; Overy</h3>
+            <h4>1 team</h4>
+        </div>
+        <div class="companies-item saopaolo 2012 2013">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bloomberg</h3>
+            <h4>2 teams</h4>
+        </div>
+        <div class="companies-item shanghai 2012 2017">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Amundi Asset Management</h3>
+            <h4>12 teams</h4>
+        </div>
+        <div class="companies-item tokyo 2011 2017">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bank of Montreal</h3>
+            <h4>2 teams</h4>
         </div>
         <div class="load-more">
             <a href="#" class="btn btn-load-more">Load More</a>

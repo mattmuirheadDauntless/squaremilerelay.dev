@@ -1,10 +1,10 @@
-//Charities Filter
-.companies-filter {
+//global-gallery Filter
+.global-gallery-filter {
     padding: 0;
     background-color: $lightergrey;
     position: relative;
     overflow: hidden;
-    .companies-filter-btn {
+    .global-gallery-filter-btn {
         padding: 22px 20px;
         p {
             text-transform: uppercase;
@@ -77,7 +77,7 @@
     }
 
     &.active {
-        .companies-filter {
+        .global-gallery-filter {
             padding: 0 0 18px;
         }
         .filter-dropdown {
@@ -92,53 +92,129 @@
     }
 }
 
-//Charities class
-.companies {
-    margin: 11.5px 10.5px 161px;
-    width: calc(100% - 21px);
+//global-gallery class, section underneath filter dropdown
+.global-gallery {
+    padding: 50px 0 15px;
+    float: left;
+    width: 100%;
 
-    .companies-item {
+    .vid-gallery-heading {
+        padding-left: 17px;
         width: 25%;
-        padding: 11.5px 10.5px 55px;
-
-        img {
-            width: 100%;
-            height: auto;
-        }
-
-        h3 {
+        float: left;
+    }
+    .vid-gallery {
+        float: left;
+        width: 25%;
+        h2 {
             font-weight: 800;
-            margin-bottom: 12px;
-            line-height: 28px;
+            font-size: 26px;
         }
 
-        h4 {
-            font-weight: 400;
-            font-size: 20px;
-        }
+        .vid-item {
+            width: 100%;
+            padding: 5px 17px;
 
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .img-gallery-heading {
+        width: 75%;
+        padding-left: 5px;
+        float: left;
+        h2 {
+            font-weight: 700px;
+        }
     }
 
-    .load-more {
-        position: absolute;
-        text-align: center;
-        bottom: -20px;
-        left: 10.5px;
-        right: 10.5px;
-        height: 1px;
-        border: 1px solid $lightgrey;
-        display: inline-block;
+    .img-gallery {
+        float: right;
+        //width: 75%;
+        margin-right: 7px;
+        width: calc(75% - 7px);
+        h2 {
+            font-weight: 800;
+            font-size: 26px;
+        }
+        .img-item {
+            width: 33.33%;
+            padding: 5px 10px 5px 0;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            width: 100%;
+            max-width: none;
+            margin: 0;
+            .modal-content {
+                background-color: transparent;
+                .modal-body {
+                    text-align: center;
+                    div {
+                        position: relative;
+                        display: inline-block;
+                        button {
+                            position: absolute;
+                            top: 10px;
+                            right: 20px;
+                            color: $orange;
+                            opacity: 1;
+                            text-shadow: none;
+                            font-size: 35px;
+                        }
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 @include tablet-l {
-    .companies {
-        .companies-item {
-            width: 33.33%;
+    .global-gallery {
+        width: 100%;
+        float: none;
+
+        .vid-gallery-heading {
+            display: none;
+        }
+
+        .img-gallery-heading {
+            display: none;
+        }
+
+        .vid-gallery {
+            width: 100%;
+            float: none;
+
+            .vid-item {
+                width: 100%;
+                padding: 10px 25px;
+            }
+        }
+
+        .img-gallery {
+            width: 100%;
+            float: none;
+
+            .img-item {
+                width: 100%;
+                padding: 10px 25px;
+            }
         }
     }
 
-    .companies-filter {
+    .global-gallery-filter {
         .filter-dropdown {
             padding: 0 20px;
             .year-filter {
@@ -166,15 +242,25 @@
 }
 
 @include phone {
-    .companies {
-        .companies-item {
-            width: 100%;
-            padding-bottom: 30px;
+    .global-gallery {
+        padding-top: 30px;
+        .vid-gallery {
+
+            .vid-item {
+                padding: 5px 20px;
+            }
+        }
+
+        .img-gallery {
+
+            .img-item {
+                padding: 5px 20px;
+            }
         }
     }
 
-    .companies-filter {
-        .companies-filter-btn {
+    .global-gallery-filter {
+        .global-gallery-filter-btn {
             .view-all {
                 .fa-times {
                     display: none;
