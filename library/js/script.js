@@ -99,6 +99,13 @@ $(function(){
             });
         }
 
+        //if partners page
+        if ($('.partners').length > 0) {
+            $('.partners').isotope({
+                filter: $selector
+            });
+        }
+
         //if results page
         if ($('.results-table').length > 0){
             $('.results-table tr').addClass('hide');
@@ -309,6 +316,28 @@ $('.save-btn').click(function() {
         $('.notification.required').removeClass('hide');
     }
 });
+
+//===================================
+//PARTNERS PAGE
+//===================================
+
+    //Isotope, PARTNERS PAGE:
+    var $partnersGrid = $('.partners').isotope({
+        itemSelector: '.race',
+        percentPosition: true,
+        layoutMode: 'fitRows'
+    });
+
+    $('.race-title').click(function() {
+        $this = $(this),
+        $race = $this.parent('.race');
+
+        $race.toggleClass('active');
+        setTimeout(function(){
+            $partnersGrid.isotope('layout');
+        }, 100);
+
+    });
 
 //===================================
 //END
