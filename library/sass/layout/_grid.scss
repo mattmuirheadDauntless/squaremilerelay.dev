@@ -7,6 +7,11 @@
 
         @extend .wrapper;
     }
+    &-wide {
+        max-width: none;
+
+        @extend .wrapper;
+    }
 }
 
 @include desktop {

@@ -363,7 +363,7 @@
         </div>
     </section>
 
-    <section class="home-results">
+    <section class="home-results" style="background-image: url(library/images/pre-footer.jpg);">
         <div class="wrapper-thin">
             <div class="row">
                 <div class="col-md-4 text-center">
@@ -387,7 +387,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a href="#" class="btn btn-black"> View More Results</a>
+                    <a href="/results.php" class="btn btn-black"> View More Results</a>
                 </div>
             </div>
         </div>
