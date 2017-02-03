@@ -39,65 +39,65 @@
                     <a href="#">Race Locations</a>
                     <ul class="locations">
                         <div class="locations-wrapper">
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/dubai.png">
                                 <div class="location">
                                     Dubai
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/hongKong.png">
                                 <div class="location">
                                     Hong Kong
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/sanFrancisco.png">
                                 <div class="location">
                                     San Francisco
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/sydney.png">
                                 <div class="location">
                                     Sydney
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/newYork.png">
                                 <div class="location">
                                     New York
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/london.png">
                                 <div class="location">
                                     London
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/singapore.png">
                                 <div class="location">
                                     Singapore
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/shanghai.png">
                                 <div class="location">
                                     Shanghai
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/saoPaulo.png">
                                 <div class="location">
                                     Sao Paulo
                                 </div>
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="/single-city.php">
                                 <img src="../library/images/cities/tokyo.png">
                                 <div class="location">
                                     Tokyo
@@ -107,7 +107,7 @@
                     </ul>
                 </li>
                 <li><a href="/results.php">Results</a></li>
-                <li><a href="/gallery.php">Gallery</a></li>
+                <li><a href="/global-gallery.php">Gallery</a></li>
             </ul>
 
             <div class="header-account">
@@ -146,7 +146,7 @@
                             <div class="msg in-valid">Your password is incorrect.</div>
                         </div>
                         <div class="button-group">
-                            <div class="btn btn-orange btn-long">Login</div>
+                            <a href="/my-account.php" class="btn btn-orange btn-long">Login</a>
                         </div>
                     </div>
                 </div>

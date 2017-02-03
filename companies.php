@@ -121,9 +121,28 @@
         </div>
         <div class="companies-item grid-item tokyo 2011 2017">
             <img src="library/images/demo-news.jpg" alt="Charities item">
-            <h3>Emirates Red Crescent</h3>
-            <h4>Global Charity</h4>
-            <h5>Dubai 2017</h5>
+            <h3>Bank of Montreal</h3>
+            <h4>2 teams</h4>
+        </div>
+        <div class="companies-item sanfrancisco 2012 2014">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Allen &amp; Overy</h3>
+            <h4>1 team</h4>
+        </div>
+        <div class="companies-item saopaolo 2012 2013">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bloomberg</h3>
+            <h4>2 teams</h4>
+        </div>
+        <div class="companies-item shanghai 2012 2017">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Amundi Asset Management</h3>
+            <h4>12 teams</h4>
+        </div>
+        <div class="companies-item tokyo 2011 2017">
+            <img src="library/images/demo-news.jpg" alt="companies item">
+            <h3>Bank of Montreal</h3>
+            <h4>2 teams</h4>
         </div>
         <div class="load-more">
             <a href="#" class="btn btn-load-more">Load More</a>

@@ -1,0 +1,153 @@
+//Charities Filter
+.single-company-filter {
+    padding: 0;
+    background-color: $lightergrey;
+    position: relative;
+    overflow: hidden;
+    .single-company-filter-btn {
+        padding: 22px 20px;
+        p {
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            display: inline-block;
+        }
+        .fa-chevron-down {
+            margin-left: 50px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .view-all {
+            position: absolute;
+            top: 20px;
+            right: 18px;
+            transform: translateX(150%);
+            transition: all ease-in .3s;
+
+            .fa-times {
+                margin: 0 0 0 12px;
+                vertical-align: -5px;
+                font-size: 25px;
+                font-weight: 100;
+            }
+        }
+    }
+    .filter-dropdown {
+        max-height: 0;
+        height: auto;
+        transition: all ease-in .3s;
+        float: left;
+        width: 100%;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            float: left;
+
+            li {
+                list-style: none;
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 800;
+                letter-spacing: 2px;
+                padding: 17px 30px;
+                cursor: pointer;
+            }
+        }
+
+            .year-filter {
+                width: 400px;
+                padding: 5px;
+                padding-left: 30px;
+                margin-bottom: 3px;
+                border-right: 1px solid $bordergrey;
+            }
+
+            .country-filter {
+                width: calc(100% - 400px);
+                padding: 5px;
+                padding-left: 55px;
+                margin-bottom: 3px;
+            }
+    }
+
+    &.active {
+        .single-company-filter {
+            padding: 0 0 18px;
+        }
+        .filter-dropdown {
+            max-height: 800px;
+            transition: all ease-in .3s;
+            padding-bottom: 17px;
+        }
+        .view-all {
+            transform: translateX(0);
+            transition: all ease-in .3s;
+       }
+    }
+}
+
+//single-company class, section underneath filter dropdown
+.single-company {
+
+}
+
+@include tablet-l {
+    .single-company {
+
+    }
+
+    .single-company-filter {
+        .filter-dropdown {
+            padding: 0 20px;
+            .year-filter {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 3px;
+                border: 0;
+                border-bottom: 1px solid $bordergrey;
+                li {
+                    padding: 17px 30px 17px 0;
+                }
+            }
+
+            .country-filter {
+                width: 100%;
+                border: 0;
+                padding: 5px;
+                margin-bottom: 3px;
+                 li {
+                    padding: 17px 30px 17px 0;
+                }
+            }
+        }
+    }
+}
+
+@include phone {
+    .single-company {
+
+    }
+
+    .single-company-filter {
+        .single-company-filter-btn {
+            .view-all {
+                .fa-times {
+                    display: none;
+                }
+            }
+        }
+
+        .filter-dropdown {
+            ul li {
+                font-size: 11px;
+                padding: 14px 20px;
+            }
+        }
+    }
+}

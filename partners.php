@@ -199,5 +199,4 @@
         </div>
     </section>
 
-
 <?php include 'includes/structure/end.php'; ?>

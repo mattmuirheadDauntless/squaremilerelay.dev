@@ -106,6 +106,18 @@ $(function(){
             });
         }
 
+        //if gallery page
+        if ($('.vid-gallery').length > 0) {
+            $('.vid-gallery').isotope({
+                filter: $selector
+            });
+        }
+        if ($('.img-gallery').length > 0) {
+            $('.img-gallery').isotope({
+                filter: $selector
+            });
+        }
+
         //if results page
         if ($('.results-table').length > 0){
             $('.results-table tr').addClass('hide');
@@ -338,6 +350,33 @@ $('.save-btn').click(function() {
         }, 100);
 
     });
+
+//===================================
+//GALLERY PAGE
+//===================================
+
+//Isotope, GLOBAL-GALLERY PAGE, vid-gallery:
+   var $globalGalleryGrid = $('.vid-gallery').isotope({
+       itemSelector: '.vid-item',
+       percentPosition: true,
+       layoutMode: 'fitRows'
+   });
+
+   $globalGalleryGrid.imagesLoaded().progress( function() {
+        $globalGalleryGrid.isotope('layout');
+   });
+
+
+   //Isotope, GLOBAL-GALLERY PAGE, img-gallery:
+   var $globalGalleryGrid = $('.img-gallery').isotope({
+       itemSelector: '.img-item',
+       percentPosition: true,
+       layoutMode: 'masonry'
+   });
+
+   $globalGalleryGrid.imagesLoaded().progress( function() {
+        $globalGalleryGrid.isotope('layout');
+   });
 
 //===================================
 //END
