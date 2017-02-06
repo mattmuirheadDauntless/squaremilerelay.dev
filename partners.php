@@ -63,47 +63,105 @@
             </div>
             <div class="race-partners">
                 <div class="slide-nav-section active" id="dubai2017SponsorHeadlineSponsor" data-slide="headline-sponsor">
-                    <h3>Headline Sponsor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Headline Sponsor</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorVenuePartner" data-slide="venue-partner">
-                    <h3>Venue Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Venue Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorWellnessPartner" data-slide="wellness-partner">
-                    <h3>Wellness Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Wellness Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorMediaPartner" data-slide="media-partner">
-                    <h3>Media Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Media Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorRadioPartner" data-slide="radio-partner">
-                    <h3>Radio Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Radio Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorFitnessPartner" data-slide="fitness-partner">
-                    <h3>Fitness Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Fitness Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorRunningShoePartner" data-slide="running-shoe-partner">
-                    <h3>Running Shoe Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Running Shoe Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="dubai2017SponsorApparelSupplier" data-slide="apparel-supplier">
-                    <h3>Apparel Supplier</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Apparel Supplier</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -114,47 +172,103 @@
             </div>
             <div class="race-partners">
                 <div class="slide-nav-section" id="hongKong2017SponsorHeadlineSponsor" data-slide="headline-sponsor">
-                    <h3>Headline Sponsor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Headline Sponsor</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorVenuePartner" data-slide="venue-partner">
-                    <h3>Venue Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                     <div class="content-left">
+                        <h3>Venue Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorWellnessPartner" data-slide="wellness-partner">
-                    <h3>Wellness Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                     <div class="content-left">
+                        <h3>Wellness Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorMediaPartner" data-slide="media-partner">
-                    <h3>Media Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Media Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorRadioPartner" data-slide="radio-partner">
-                    <h3>Radio Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Radio Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorFitnessPartner" data-slide="fitness-partner">
-                    <h3>Fitness Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Fitness Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorRunningShoePartner" data-slide="running-shoe-partner">
-                    <h3>Running Shoe Partner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Running Shoe Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
                 <div class="slide-nav-section" id="hongKong2017SponsorApparelSupplier" data-slide="apparel-supplier">
-                    <h3>Apparel Supplier</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    <div class="content-left">
+                        <h3>Apparel Supplier</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,7 +278,107 @@
                 <h2>London 2017</h2>
             </div>
             <div class="race-partners">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum temporibus harum qui quas eligendi odit officiis consectetur sequi, dolore, dicta totam. Rerum harum ea, sunt, odit aliquid consequuntur pariatur dignissimos.
+
+            <div class="slide-nav-section" id="london2017SponsorHeadlineSponsor" data-slide="headline-sponsor">
+                    <div class="content-left">
+                        <h3>Headline Sponsor</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorVenuePartner" data-slide="venue-partner">
+                     <div class="content-left">
+                        <h3>Venue Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorWellnessPartner" data-slide="wellness-partner">
+                     <div class="content-left">
+                        <h3>Wellness Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorMediaPartner" data-slide="media-partner">
+                    <div class="content-left">
+                        <h3>Media Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorRadioPartner" data-slide="radio-partner">
+                    <div class="content-left">
+                        <h3>Radio Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorFitnessPartner" data-slide="fitness-partner">
+                    <div class="content-left">
+                        <h3>Fitness Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorRunningShoePartner" data-slide="running-shoe-partner">
+                    <div class="content-left">
+                        <h3>Running Shoe Partner</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+                <div class="slide-nav-section" id="london2017SponsorApparelSupplier" data-slide="apparel-supplier">
+                    <div class="content-left">
+                        <h3>Apparel Supplier</h3>
+                        <img src="http://fakeimg.pl/250x100/" alt="Logo image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
+                    </div>
+                    <div class="content-right">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                        <img src="http://fakeimg.pl/195x140/" alt="Logo image">
+                    </div>
+                </div>
+
             </div>
         </div>
 
