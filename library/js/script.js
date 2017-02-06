@@ -104,6 +104,9 @@ $(function(){
             $('.partners').isotope({
                 filter: $selector
             });
+
+            $('.partners').removeClass('active');
+            $('.partners .race').removeClass('active');
         }
 
         //if gallery page
@@ -325,7 +328,7 @@ $('.save-btn').click(function() {
     if ($required != 1){
         $('.my-profile').removeClass('edit');
     } else {
-        $('.notification.required').removeClass('hide');
+        $('.my-profile .notification.error').removeClass('hide');
     }
 });
 
@@ -344,11 +347,47 @@ $('.save-btn').click(function() {
         $this = $(this),
         $race = $this.parent('.race');
 
-        $race.toggleClass('active');
+        $('.race').removeClass('active');
+        $race.addClass('active');
+
+        if ($('.race').hasClass('active')){
+            $('.partners').addClass('active');
+        } else {
+            $('.partners').removeClass('active');
+        }
+
         setTimeout(function(){
             $partnersGrid.isotope('layout');
         }, 100);
 
+    });
+
+    //fix slide nav menu
+    if($('#partnersNav').length > 0){
+        new Waypoint({
+            element: $('#partnersNav'),
+            handler: function() {
+                $('#partnersNav').toggleClass('fixed');
+            },
+            offset: 140
+        });
+    }
+
+    $('.slide-nav-section').each(function(){
+        var $this = $(this),
+            $id = $this.attr('id'),
+            $slide = $this.attr('data-slide');
+
+        new Waypoint({
+            element: $('#'+$id),
+            handler: function() {
+                $('.slide-nav-section').removeClass('active');
+                $('.slide-nav li').removeClass('active');
+                $('#'+$id).addClass('active');
+                $('.slide-nav li[data-slide='+ $slide +']').addClass('active');
+            },
+            offset: '30%'
+        });
     });
 
 //===================================
