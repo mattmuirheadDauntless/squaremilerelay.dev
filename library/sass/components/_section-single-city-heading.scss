@@ -50,7 +50,25 @@
         .wrapper-thin {
             .title {
                 h1 {
-                    font-size: 70px;
+                    font-size: 65px;
+                }
+                h2 {
+                    font-size: 21px;
+                }
+
+                .stats {
+                    h3 {
+                        font-size: 18px;
+                        padding-right: 40px;
+
+                        &:last-child {
+                            padding-right: 10px;
+                        }
+
+                        strong {
+                            font-size: 35px;
+                        }
+                    }
                 }
             }
         }
@@ -61,10 +79,23 @@
             .title {
                 h1 {
                     font-size: 45px;
+                    margin-bottom: 5px;
                 }
                 h2 {
                     font-size: 15px;
-                    margin-top: 5px;
+                }
+
+                .stats {
+                    position: relative;
+                    h3 {
+                        font-size: 13px;
+                        padding-right: 20px;
+                        text-align: left;
+
+                        strong {
+                            font-size: 25px;
+                        }
+                    }
                 }
             }
         }

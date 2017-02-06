@@ -65,21 +65,52 @@
         <div class="vid-gallery">
             <div class="vid-item dubai" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Video">
+                <div class="play-video">
+                    <div class="play-btn">
+                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-item dubai" data-toggle="modal" data-target="#img-lightbox">
+                <img src="library/images/demo-news.jpg" alt="Video">
+                <div class="play-video">
+                    <div class="play-btn">
+                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
             <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Video">
+                <div class="play-video">
+                    <div class="play-btn">
+                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
             <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Video">
+                <div class="play-video">
+                    <div class="play-btn">
+                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
             <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Video">
+                <div class="play-video">
+                    <div class="play-btn">
+                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
             <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Video">
-            </div>
-            <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
+                <div class="play-video">
+                    <div class="play-btn">
+                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
         </div>
 
