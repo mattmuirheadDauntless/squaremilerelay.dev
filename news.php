@@ -53,7 +53,7 @@
             <div class="btn btn-black filter" data-filter="*">View all categories</div>
         </div>
         <div class="news-item grid-item dubai">
-            <a href="/news-single.php" class="cover-link"></a>
+            <a href="news-single.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns to Sydney for its second year</h3>
@@ -66,7 +66,7 @@
 
         </div>
         <div class="news-item grid-item hongkong">
-            <a href="/news-single.php" class="cover-link"></a>
+            <a href="news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/250x100/" alt="news item">
             <p class="date">14 November 2016 at 10:15 AM</p>
             <h3>Dubai to host first relay of the 2017 Global Series</h3>
@@ -75,7 +75,7 @@
             <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item grid-item london">
-            <a href="/news-single.php" class="cover-link"></a>
+            <a href="news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x100/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>English Schools Foundation wins Hong Kong relay </h3>
@@ -87,7 +87,7 @@
             <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item grid-item newyork">
-            <a href="/news-single.php" class="cover-link"></a>
+            <a href="news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x80/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns </h3>
@@ -100,7 +100,7 @@
             <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item grid-item singapore">
-            <a href="/news-single.php" class="cover-link"></a>
+            <a href="news-single.php" class="cover-link"></a>
             <img src="http://fakeimg.pl/150x150/" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns to Sydney for its second year</h3>
@@ -112,7 +112,7 @@
             <div class="btn btn-light btn-small">Read More</div>
         </div>
         <div class="news-item grid-item sydney">
-            <a href="/news-single.php" class="cover-link"></a>
+            <a href="news-single.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="news item">
             <p class="date">29 November 2016 at 10:15 AM</p>
             <h3>Bloomberg Square Mile Relay returns to Sydney for its second year</h3>
