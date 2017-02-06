@@ -110,13 +110,8 @@ $(function(){
         }
 
         //if gallery page
-        if ($('.vid-gallery').length > 0) {
-            $('.vid-gallery').isotope({
-                filter: $selector
-            });
-        }
-        if ($('.img-gallery').length > 0) {
-            $('.img-gallery').isotope({
+        if ($('.gallery-grid').length > 0) {
+            $('.gallery-grid').isotope({
                 filter: $selector
             });
         }
@@ -394,28 +389,65 @@ $('.save-btn').click(function() {
 //GALLERY PAGE
 //===================================
 
-//Isotope, GLOBAL-GALLERY PAGE, vid-gallery:
-   var $globalGalleryGrid = $('.vid-gallery').isotope({
-       itemSelector: '.vid-item',
+   //Isotope, GLOBAL-GALLERY PAGE
+   var $globalGalleryGrid = $('.gallery-grid').isotope({
+       itemSelector: '.grid-item',
        percentPosition: true,
-       layoutMode: 'fitRows'
+       layoutMode: 'masonry',
+       stamp: '.stamp'
    });
 
    $globalGalleryGrid.imagesLoaded().progress( function() {
         $globalGalleryGrid.isotope('layout');
    });
 
+//===================================
+//SINGLE CITY PAGE
+//===================================
 
-   //Isotope, GLOBAL-GALLERY PAGE, img-gallery:
-   var $globalGalleryGrid = $('.img-gallery').isotope({
-       itemSelector: '.img-item',
-       percentPosition: true,
-       layoutMode: 'masonry'
-   });
+    //close call to action
+    $('.city-cta .close').click(function() {
+        $(this).parent('.city-cta').addClass('hide');
+    });
 
-   $globalGalleryGrid.imagesLoaded().progress( function() {
-        $globalGalleryGrid.isotope('layout');
-   });
+    //select race year
+    $('.races-by-year-nav li').click(function() {
+        var $this = $(this),
+            $year = $this.attr('data-year');
+
+        $('.races-by-year-nav li').removeClass('active');
+        $this.addClass('active');
+
+        $('.races-by-year .race-year').removeClass('active');
+        $('.races-by-year .race-year[data-year='+ $year +']').addClass('active');
+    });
+
+    //when list gets to top of screen go fixed
+    new Waypoint({
+        element: $('#citySlideNav'),
+        handler: function() {
+            $('#citySlideNav').toggleClass('fixed');
+        },
+        offset: '180px'
+    });
+
+    $('.race-year .section').each(function() {
+        var $this = $(this),
+            $id = $this.attr('id'),
+            $slide = $this.attr('data-slide');
+
+        new Waypoint({
+            element: $('#'+$id),
+            handler: function() {
+                $('.race-year .section').removeClass('active');
+                $('#'+$id).addClass('active');
+
+                $('.slide-nav li').removeClass('active');
+                $('.slide-nav li[data-slide='+ $slide +']').addClass('active');
+            },
+            offset: '280px'
+        });
+    });
 
 //===================================
 //END

@@ -45,9 +45,6 @@
         </div>
     </section>
     <section class="global-gallery">
-        <div class="vid-gallery-heading"><h2>Videos</h2></div>
-        <div class="img-gallery-heading"><h2>Images</h2></div>
-
         <!-- Modal -->
         <div class="modal fade" id="img-lightbox" role="dialog">
             <div class="modal-dialog modal-lg">
@@ -62,102 +59,85 @@
             </div>
         </div>
 
-        <div class="vid-gallery">
-            <div class="vid-item dubai" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
-                <div class="play-video">
-                    <div class="play-btn">
-                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+        <div class="gallery-grid">
+            <div class="stamp">
+                <div class="vid-item dubai" data-toggle="modal" data-target="#img-lightbox">
+                    <img src="library/images/demo-news.jpg" alt="Video">
+                    <div class="play-video">
+                        <div class="play-btn">
+                            <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="vid-item dubai" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
-                <div class="play-video">
-                    <div class="play-btn">
-                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                <div class="vid-item dubai 2017" data-toggle="modal" data-target="#img-lightbox">
+                    <img src="library/images/demo-news.jpg" alt="Video">
+                    <div class="play-video">
+                        <div class="play-btn">
+                            <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid-item newyork" data-toggle="modal" data-target="#img-lightbox">
+                    <img src="library/images/demo-news.jpg" alt="Video">
+                    <div class="play-video">
+                        <div class="play-btn">
+                            <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid-item london" data-toggle="modal" data-target="#img-lightbox">
+                    <img src="library/images/demo-news.jpg" alt="Video">
+                    <div class="play-video">
+                        <div class="play-btn">
+                            <i class="fa fa-2x fa-play" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
-                <div class="play-video">
-                    <div class="play-btn">
-                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
-                <div class="play-video">
-                    <div class="play-btn">
-                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
-                <div class="play-video">
-                    <div class="play-btn">
-                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="vid-item" data-toggle="modal" data-target="#img-lightbox">
-                <img src="library/images/demo-news.jpg" alt="Video">
-                <div class="play-video">
-                    <div class="play-btn">
-                        <i class="fa fa-2x fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="img-gallery">
-            <div class="img-item dubai" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item dubai" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="http://fakeimg.pl/250x100/" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="http://fakeimg.pl/350x400/" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="http://fakeimg.pl/350x500/" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="http://fakeimg.pl/250x400/" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="http://fakeimg.pl/350x600/" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
         </div>
