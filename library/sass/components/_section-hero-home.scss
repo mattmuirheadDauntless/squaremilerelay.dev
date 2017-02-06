@@ -2,7 +2,7 @@
     position: relative;
     background-color: $lightgrey;
     padding-top: 40px;
-    padding-bottom: 128px;
+    padding-bottom: 126px;
     overflow: hidden;
     .cinemagraph {
         position: absolute;
@@ -53,25 +53,23 @@
             height: auto;
         }
         h2 {
-            margin-bottom: 51px;
+            margin: 18px 0 48px;
             line-height: 45px;
             color: $white;
-            font-size: 30px;
-            font-size: 34px;
+            font-size: 33px;
             font-weight: 700;
         }
         h1 {
-            margin: 23px 0 0;
+            margin: 19px 0 0;
             line-height: 30px;
-            letter-spacing: .5px;
             color: $orange;
             font-size: 17px;
             font-weight: 400;
         }
         h3 {
-            line-height: 48px;
+            line-height: 50px;
             color: $white;
-            font-size: 50px;
+            font-size: 52px;
             font-weight: 700;
         }
     }
