@@ -47,7 +47,7 @@
                     <h2>Dubai</h2>
                     <h5>72 days</h5>
                 </div>
-                <img src="../library/images/cities/dubai.png">
+                <img src="library/images/cities/dubai.png">
             </div>
              <div class="race">
                 <a href="#" class="cover-link"></a>
@@ -56,7 +56,7 @@
                     <h2>Hong Kong</h2>
                     <h5>85 days</h5>
                 </div>
-                <img src="../library/images/cities/hongKong.png">
+                <img src="library/images/cities/hongKong.png">
             </div>
              <div class="race">
                 <a href="#" class="cover-link"></a>
@@ -65,7 +65,7 @@
                     <h2>San Francisco</h2>
                     <h5>TBC</h5>
                 </div>
-                <img src="../library/images/cities/sanFrancisco.png">
+                <img src="library/images/cities/sanFrancisco.png">
             </div>
         </div>
         <div class="view-more">
@@ -387,7 +387,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a href="/results.php" class="btn btn-black"> View More Results</a>
+                    <a href="results.php" class="btn btn-black"> View More Results</a>
                 </div>
             </div>
         </div>

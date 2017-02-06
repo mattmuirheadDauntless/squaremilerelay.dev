@@ -19,7 +19,7 @@
         <header class="header">
 
             <div class="logo">
-                <a href="/index.php">
+                <a href="index.php">
                     <?php include 'includes/components/logo.php'; ?>
                 </a>
             </div>
@@ -31,74 +31,74 @@
             </div>
 
             <ul class="nav">
-                <li><a href="/partners.php">Partners</a></li>
-                <li><a href="/charities.php">Charities</a></li>
-                <li><a href="/companies.php">Companies</a></li>
-                <li><a href="/news.php">News</a></li>
+                <li><a href="partners.php">Partners</a></li>
+                <li><a href="charities.php">Charities</a></li>
+                <li><a href="companies.php">Companies</a></li>
+                <li><a href="news.php">News</a></li>
                 <li class="has-child">
                     <a href="#">Race Locations</a>
                     <ul class="locations">
                         <div class="locations-wrapper">
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/dubai.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/dubai.png">
                                 <div class="location">
                                     Dubai
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/hongKong.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/hongKong.png">
                                 <div class="location">
                                     Hong Kong
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/sanFrancisco.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/sanFrancisco.png">
                                 <div class="location">
                                     San Francisco
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/sydney.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/sydney.png">
                                 <div class="location">
                                     Sydney
                                     <span class="time">15 Mar 2017</span>
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/newYork.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/newYork.png">
                                 <div class="location">
                                     New York
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/london.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/london.png">
                                 <div class="location">
                                     London
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/singapore.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/singapore.png">
                                 <div class="location">
                                     Singapore
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/shanghai.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/shanghai.png">
                                 <div class="location">
                                     Shanghai
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/saoPaulo.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/saoPaulo.png">
                                 <div class="location">
                                     Sao Paulo
                                 </div>
                             </a></li>
-                            <li><a href="/single-city.php">
-                                <img src="../library/images/cities/tokyo.png">
+                            <li><a href="single-city.php">
+                                <img src="library/images/cities/tokyo.png">
                                 <div class="location">
                                     Tokyo
                                 </div>
@@ -106,8 +106,8 @@
                         </div>
                     </ul>
                 </li>
-                <li><a href="/results.php">Results</a></li>
-                <li><a href="/global-gallery.php">Gallery</a></li>
+                <li><a href="results.php">Results</a></li>
+                <li><a href="global-gallery.php">Gallery</a></li>
             </ul>
 
             <div class="header-account">
@@ -146,7 +146,7 @@
                             <div class="msg in-valid">Your password is incorrect.</div>
                         </div>
                         <div class="button-group">
-                            <a href="/my-account.php" class="btn btn-orange btn-long">Login</a>
+                            <a href="my-account.php" class="btn btn-orange btn-long">Login</a>
                         </div>
                     </div>
                 </div>

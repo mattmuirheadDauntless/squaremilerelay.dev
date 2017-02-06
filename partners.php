@@ -47,23 +47,22 @@
     <!-- /Filters -->
 
     <section class="partners">
+        <ul id="partnersNav" class="slide-nav">
+            <li class="active" data-slide="headline-sponsor">Headline Sponsor</li>
+            <li data-slide="venue-partner">Venue Partner</li>
+            <li data-slide="wellness-partner">Wellness Partner</li>
+            <li data-slide="media-partner">Media Partner</li>
+            <li data-slide="radio-partner">Radio Partner</li>
+            <li data-slide="fitness-partner">Fitness Partner</li>
+            <li data-slide="running-shoe-partner">Running Shoe Partner</li>
+            <li data-slide="apparel-supplier">Apparel Supplier</li>
+        </ul>
         <div class="race dubai 2017">
             <div class="race-title">
                 <h2>Dubai 2017</h2>
             </div>
             <div class="race-partners">
-                <ul id="dubai2017Nav" class="slide-nav">
-                    <li data-slide="headline-sponsor">Headline Sponsor</li>
-                    <li data-slide="venue-partner">Venue Partner</li>
-                    <li data-slide="wellness-partner">Wellness Partner</li>
-                    <li data-slide="media-partner">Media Partner</li>
-                    <li data-slide="radio-partner">Radio Partner</li>
-                    <li data-slide="fitness-partner">Fitness Partner</li>
-                    <li data-slide="running-shoe-partner">Running Shoe Partner</li>
-                    <li data-slide="apparel-supplier">Apparel Supplier</li>
-                </ul>
-
-                <div class="slide-nav-section" id="dubai2017SponsorHeadlineSponsor" data-slide="headline-sponsor">
+                <div class="slide-nav-section active" id="dubai2017SponsorHeadlineSponsor" data-slide="headline-sponsor">
                     <h3>Headline Sponsor</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>
@@ -114,17 +113,6 @@
                 <h2>Hong Kong 2017</h2>
             </div>
             <div class="race-partners">
-                <ul id="hongKong2017Nav" class="slide-nav">
-                    <li data-slide="headline-sponsor">Headline Sponsor</li>
-                    <li data-slide="venue-partner">Venue Partner</li>
-                    <li data-slide="wellness-partner">Wellness Partner</li>
-                    <li data-slide="media-partner">Media Partner</li>
-                    <li data-slide="radio-partner">Radio Partner</li>
-                    <li data-slide="fitness-partner">Fitness Partner</li>
-                    <li data-slide="running-shoe-partner">Running Shoe Partner</li>
-                    <li data-slide="apparel-supplier">Apparel Supplier</li>
-                </ul>
-
                 <div class="slide-nav-section" id="hongKong2017SponsorHeadlineSponsor" data-slide="headline-sponsor">
                     <h3>Headline Sponsor</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident ut, ratione quam possimus doloribus assumenda laboriosam molestiae similique aperiam vero numquam adipisci, quia sequi beatae aliquid repudiandae quasi consequatur.</p>

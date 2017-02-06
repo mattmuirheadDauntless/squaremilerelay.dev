@@ -152,7 +152,7 @@
                         <h3>Mo Farah</h3>
                         <div class="btn btn-orange btn-small save-btn">Save</div>
 
-                        <div class="notification required hide">
+                        <div class="notification error hide">
                             <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
 
                             <p><strong>Important:</strong> Please make sure all required fields have been filled in and there are no validation errors.</p>
@@ -337,12 +337,207 @@
             </div>
         </div>
 
-        <div class="tab-wrapper" data-tab="2">
-            <h5>My Teams</h5>
+        <div class="tab-wrapper my-teams" data-tab="2">
+            <h5>My Teams <span class="edit-element">- Edit Profile</span></h5>
+
+            <div class="controls">
+                <div class="control-btn orange">Add a team</div>
+                <div class="control-btn grey">Buy Supporter Tickets</div>
+            </div>
+            <div class="teams">
+                <div class="team">
+                    <div class="progress-radial progress-100">
+                        <div class="overlay">
+                            <div class="text">
+                                <span>100%</span>
+                                Complete
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dubai</h3>
+                    <h6>21 March 2017</h6>
+
+                    <h4 class="team-name">Ridiculous Rainbows</h4>
+                    <h5 class="team-sub-name">Bank of America - Soho London</h5>
+
+                    <p class="captain">Captain: Mo Farah</p>
+
+                    <ul class="runners">
+                        <li>Runners Invited <span>10/10</span></li>
+                        <li>Registered Completed <span>10/10</span></li>
+                    </ul>
+
+                    <ul class="tasks">
+                        <li>Charity Selected <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Additional Hospitality <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="team">
+                    <div class="progress-radial progress-75">
+                        <div class="overlay">
+                            <div class="text">
+                                <span>75%</span>
+                                Complete
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dubai</h3>
+                    <h6>21 March 2017</h6>
+
+                    <h4 class="team-name">Ridiculous Rainbows</h4>
+                    <h5 class="team-sub-name">Bank of America - Soho London</h5>
+
+                    <p class="captain">Captain: Mo Farah</p>
+
+                    <ul class="runners">
+                        <li>Runners Invited <span>10/10</span></li>
+                        <li>Registered Completed <span>10/10</span></li>
+                    </ul>
+
+                    <ul class="tasks">
+                        <li>Charity Selected <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Additional Hospitality <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="team">
+                    <div class="progress-radial progress-75">
+                        <div class="overlay">
+                            <div class="text">
+                                <span>75%</span>
+                                Complete
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dubai</h3>
+                    <h6>21 March 2017</h6>
+
+                    <h4 class="team-name">Ridiculous Rainbows</h4>
+                    <h5 class="team-sub-name">Bank of America - Soho London</h5>
+
+                    <p class="captain">Captain: Mo Farah</p>
+
+                    <ul class="runners">
+                        <li>Runners Invited <span>10/10</span></li>
+                        <li>Registered Completed <span>10/10</span></li>
+                    </ul>
+
+                    <ul class="tasks">
+                        <li>Charity Selected <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Additional Hospitality <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="team">
+                    <div class="progress-radial progress-75">
+                        <div class="overlay">
+                            <div class="text">
+                                <span>75%</span>
+                                Complete
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dubai</h3>
+                    <h6>21 March 2017</h6>
+
+                    <h4 class="team-name">Ridiculous Rainbows</h4>
+                    <h5 class="team-sub-name">Bank of America - Soho London</h5>
+
+                    <p class="captain">Captain: Mo Farah</p>
+
+                    <ul class="runners">
+                        <li>Runners Invited <span>10/10</span></li>
+                        <li>Registered Completed <span>10/10</span></li>
+                    </ul>
+
+                    <ul class="tasks">
+                        <li>Charity Selected <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Additional Hospitality <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="team">
+                    <div class="progress-radial progress-75">
+                        <div class="overlay">
+                            <div class="text">
+                                <span>75%</span>
+                                Complete
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dubai</h3>
+                    <h6>21 March 2017</h6>
+
+                    <h4 class="team-name">Ridiculous Rainbows</h4>
+                    <h5 class="team-sub-name">Bank of America - Soho London</h5>
+
+                    <p class="captain">Captain: Mo Farah</p>
+
+                    <ul class="runners">
+                        <li>Runners Invited <span>10/10</span></li>
+                        <li>Registered Completed <span>10/10</span></li>
+                    </ul>
+
+                    <ul class="tasks">
+                        <li>Charity Selected <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Additional Hospitality <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <div class="tab-wrapper" data-tab="3">
-            <h5>Orders &amp; Billing</h5>
+        <div class="tab-wrapper orders" data-tab="3">
+            <h5>Orders and Billing</h5>
+
+            <div class="order-wrapper">
+                <h3>Orders History</h3>
+
+                <div class="notification error">
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+
+                    <p><strong>Important:</strong> We have not received payment for this team's entry into the race. You can add/edit your team, but it won't be entered until payment is made.</p>
+
+                    <span class="close">Got it!<i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="tablesorter">
+                    <thead>
+                        <tr>
+                            <th><span></span>Date</th>
+                            <th><span></span>Order Ref #</th>
+                            <th><span></span>Order Details</th>
+                            <th><span></span>Order Total</th>
+                            <th><span></span>Order Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12/01/16</td>
+                            <td>LON16BLOOM</td>
+                            <td>10 Supporter Tickets</td>
+                            <td>£500.00</td>
+                            <td><span class="orange">Unpaid</span></td>
+                            <td><a href="#" class="btn btn-orange">Make Payment</a></td>
+                        </tr>
+                        <tr>
+                            <td>15/11/16</td>
+                            <td>DUB17BOFA1</td>
+                            <td>1 Team Entry</td>
+                            <td>£1,000.00</td>
+                            <td><span class="orange">Unpaid</span></td>
+                            <td><a href="#" class="btn btn-orange">Make Payment</a></td>
+                        </tr>
+                        <tr>
+                            <td>04/01/17</td>
+                            <td>DUB17BOFA1</td>
+                            <td>2 Team Entries</td>
+                            <td>£2,000.00</td>
+                            <td><strong>Paid</strong></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 

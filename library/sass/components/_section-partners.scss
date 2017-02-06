@@ -1,15 +1,46 @@
 .partners {
+    min-height: 700px;
+    &.active {
+        .slide-nav {
+            transition: all ease-in .3s .4s;
+            opacity: 1;
+        }
+    }
+    .slide-nav {
+        position: absolute;
+        top: 160px;
+        left: 0;
+        transition: all ease-in .3s;
+        opacity: 0;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        &.fixed {
+            position: fixed;
+            top: 155px;
+            transition: all ease-in .3s;
+        }
+        li {
+            transition: all ease-in .3s;
+            margin: 0 0 30px;
+            background-color: $white;
+            color: $black;
+            font-size: 18px;
+            font-weight: 800;
+            &.active {
+                transition: all ease-in .3s;
+                color: $offwhite;
+            }
+        }
+    }
     .race {
         position: relative;
         transition: all ease-in .3s;
         z-index: 1;
-        padding-left: 20px;
+        padding-left: 300px;
         width: 100%;
         overflow: hidden;
         &.active {
-            transition: all ease-in .3s;
-            z-index: 0;
-            padding-left: 24%;
             .race-partners {
                 transition: opacity ease-in .3s .4s;
                 opacity: 1;
@@ -31,29 +62,6 @@
             opacity: 0;
             padding: 0 20px 0 5px;
             max-height: 0;
-            .slide-nav {
-                position: absolute;
-                top: 160px;
-                left: 0;
-                margin: 0;
-                padding: 10px;
-                list-style: none;
-                &.fixed {
-                    background-color: red;
-                }
-                li {
-                    transition: all ease-in .3s;
-                    margin: 0 0 30px;
-                    background-color: $white;
-                    color: $black;
-                    font-size: 18px;
-                    font-weight: 800;
-                    &.active {
-                        transition: all ease-in .3s;
-                        color: $offwhite;
-                    }
-                }
-            }
             .slide-nav-section {
                 position: relative;
                 border-top: 2px solid $lightgrey;
@@ -62,6 +70,11 @@
                     h3 {
                         transition: all ease-in .3s;
                         color: $black;
+                        &:before {
+                            transform: translate(0, -50%);
+                            transition: all ease-on .3s;
+                            opacity: 1;
+                        }
                     }
                 }
                 h3 {
@@ -74,14 +87,21 @@
                     color: $lightgrey;
                     font-size: 24px;
                     font-weight: 800;
-                    // &:before {
-                    //     border-width: 50px 0 50px 200px;
-                    //     border-style: solid;
-                    //     border-color: transparent transparent transparent #007bff;
-                    //     width: 0;
-                    //     height: 0;
-                    //     content: "";
-                    // }
+                    &:before {
+                        position: absolute;
+                        top: 50%;
+                        left: -30px;
+                        transform: translate(-10px, -50%);
+                        transition: all ease-on .3s;
+                        opacity: 0;
+                        z-index: 1;
+                        border-width: 10px 0 10px 15px;
+                        border-style: solid;
+                        border-color: transparent transparent transparent $orange;
+                        width: 0;
+                        height: 0;
+                        content: "";
+                    }
                 }
             }
         }
