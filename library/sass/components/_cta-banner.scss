@@ -1,10 +1,11 @@
 .cta-banner {
+    clear: both;
     background-color: $orange;
     padding: 20px 5px;
     text-align: center;
     color: $white;
     font-size: 35px;
-    clear: both;
+    font-weight: 500;
     .btn {
         margin-left: 65px;
     }
@@ -14,16 +15,15 @@ header,
 .header {
     .cta-banner {
         position: fixed;
-        top: 69px;
+        top: 68px;
         left: 0;
         transform: translateY(-150px);
         transition: all ease-in .5s;
         z-index: 1;
         background-color: $orange;
+        padding: 10px 0;
         width: 100%;
         font-size: 22px;
-        padding: 10px 0;
-
         .btn {
             padding: 12px 25px;
             font-size: 11px;
@@ -51,10 +51,9 @@ header,
     .header .cta-banner {
         display: none;
     }
-
     .cta-banner {
-        font-size: 30px;
         padding-bottom: 15px;
+        font-size: 30px;
         .btn-black {
             margin: 10px 0 auto;
             font-size: 13px;
@@ -68,8 +67,8 @@ header,
         font-size: 22px;
         .btn-black {
             display: block;
-            width: 250px;
             margin: 15px auto 0;
+            width: 250px;
         }
     }
 }
