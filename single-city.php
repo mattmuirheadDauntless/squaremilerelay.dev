@@ -17,7 +17,8 @@
 
     <?php include 'includes/components/cta_banner.php'; ?>
 
-    <section class="single-city">
+    <section class="city-cta">
+        <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
         <div class="wrapper-thin">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1">
@@ -57,6 +58,160 @@
                             <p>Great for friends &amp; colleagues!</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="races-by-year-nav">
+        <h3>View Races by Year</h3>
+        <ul>
+            <li class="active" data-year="2017">2017</li>
+            <li data-year="2016">2016</li>
+            <li data-year="2015">2015</li>
+            <li data-year="2014">2014</li>
+            <li data-year="2013">2013</li>
+            <li data-year="2012">2012</li>
+            <li data-year="2011">2011</li>
+        </ul>
+    </section>
+
+    <section class="races-by-year">
+        <ul id="citySlideNav" class="slide-nav">
+            <li class="active" title="The Schedule" data-slide="the-schedule">The Schedule</li>
+            <li title="The Course" data-slide="the-course">The Course</li>
+            <li title="Race Overview" data-slide="race-overview">Race Overview</li>
+            <li title="Gallery" data-slide="gallery">Gallery</li>
+            <li title="Partners" data-slide="partners">Partners</li>
+            <li title="Charities" data-slide="charities">Charities</li>
+        </ul>
+
+        <div class="race-year active" data-year="2017">
+            <div id="dubai2017Section1" class="section schedule active" data-slide="the-schedule">
+                <h3 title="The Schedule">The Schedule</h3>
+
+                <ul class="timeline">
+                    <li style="left: 0%; transform: translateX(-0%);"><strong>4:00 pm</strong>Sign in</li>
+                    <li style="left: 25%; transform: translateX(-25%);"><strong>5:30 pm</strong>Gear Check</li>
+                    <li style="left: 50%; transform: translateX(-50%);"><strong>6:00 pm</strong>Race Starts</li>
+                    <li style="left: 100%; transform: translateX(-100%);"><strong>7:00 pm</strong>After Party</li>
+                </ul>
+            </div>
+            <div id="dubai2017Section2" class="section course" data-slide="the-course">
+                <h3 title="The Course">The Course</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, alias ducimus inventore molestias doloremque totam vero eos itaque ad explicabo neque adipisci necessitatibus. Odio, quod repudiandae aliquam culpa non hic.</p>
+            </div>
+            <div id="dubai2017Section3" class="section overview" data-slide="race-overview">
+                <h3 title="Race Overview">Race Overview</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, alias ducimus inventore molestias doloremque totam vero eos itaque ad explicabo neque adipisci necessitatibus. Odio, quod repudiandae aliquam culpa non hic.</p>
+            </div>
+            <div id="dubai2017Section6" class="section gallery" data-slide="gallery">
+                <h3 title="Gallery">Gallery</h3>
+
+                <div class="gallery-grid">
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/250x100/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/250x250/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/100x250/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/250x100/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/250x100/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/250x250/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/200x200/">
+                    </div>
+                    <div class="grid-item">
+                        <img src="http://fakeimg.pl/250x300/">
+                    </div>
+                </div>
+            </div>
+            <div id="dubai2017Section4" class="section partners" data-slide="partners">
+                <h3 title="Partners">Partners</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, alias ducimus inventore molestias doloremque totam vero eos itaque ad explicabo neque adipisci necessitatibus. Odio, quod repudiandae aliquam culpa non hic.</p>
+            </div>
+            <div id="dubai2017Section5" class="section charities" data-slide="charities">
+                <h3 title="Charities">Charities</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, alias ducimus inventore molestias doloremque totam vero eos itaque ad explicabo neque adipisci necessitatibus. Odio, quod repudiandae aliquam culpa non hic.</p>
+            </div>
+        </div>
+        <div class="race-year" data-year="2016">
+            2016
+        </div>
+        <div class="race-year" data-year="2015">
+            2015
+        </div>
+        <div class="race-year" data-year="2014">
+            2014
+        </div>
+        <div class="race-year" data-year="2013">
+            2013
+        </div>
+        <div class="race-year" data-year="2012">
+            2012
+        </div>
+        <div class="race-year" data-year="2011">
+            2011
+        </div>
+    </section>
+
+    <section class="previous-years">
+        <div class="year">
+            <img src="library/images/demo-news.jpg" alt="">
+            <div class="text">
+                <h4>2016</h4>
+                <p>302 teams</p>
+                <p>2978 runners</p>
+                <p>Fastest team: 37:54</p>
+            </div>
+        </div>
+        <div class="year">
+            <img src="library/images/demo-news.jpg" alt="">
+            <div class="text">
+                <h4>2015</h4>
+                <p>302 teams</p>
+                <p>2978 runners</p>
+                <p>Fastest team: 37:54</p>
+            </div>
+        </div>
+        <div class="year">
+            <img src="library/images/demo-news.jpg" alt="">
+            <div class="text">
+                <h4>2014</h4>
+                <p>302 teams</p>
+                <p>2978 runners</p>
+                <p>Fastest team: 37:54</p>
+            </div>
+        </div>
+        <div class="year">
+            <img src="library/images/demo-news.jpg" alt="">
+            <div class="text">
+                <h4>2013</h4>
+                <p>302 teams</p>
+                <p>2978 runners</p>
+                <p>Fastest team: 37:54</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="large-blockquote">
+        <div class="wrapper-thin">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Amazing testimonial wording about how much fun a certain celebrity banker had, while not behind his desk!</h2>
                 </div>
             </div>
         </div>
