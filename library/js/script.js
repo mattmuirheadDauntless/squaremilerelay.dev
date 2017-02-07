@@ -202,6 +202,11 @@ $(function(){
         $('.media-modal img').attr('src', $src);
     });
 
+
+//===================================
+//ENTER RACE MODULE
+//===================================
+
     //enter race modal controls
     $('.slide .next').click(function() {
         var $this = $(this),
@@ -242,9 +247,10 @@ $(function(){
         }
     });
 
-    $('.slide.current .input:not(select)').on('blur', function() {
+    //Button validation on slide 1
+    $('.slide[data-slide="1"].current .input:not(select)').on('blur', function() {
         var $valid = 1;
-        $('.slide.current .input:not(select)').each(function(){
+        $('.slide[data-slide="1"].current .input:not(select)').each(function(){
             if ($(this).val() == "") {
                 $valid = 0;
             }
@@ -254,11 +260,43 @@ $(function(){
         });
 
         if ($valid == 1){
-            $('.slide.current .next.btn').addClass('btn-orange');
-            $('.slide.current .next.btn').removeClass('btn-invalid');
+            $('.slide.current[data-slide="1"] .next.btn').addClass('btn-orange');
+            $('.slide.current[data-slide="1"] .next.btn').removeClass('btn-invalid');
         } else {
-            $('.slide.current .next.btn').removeClass('btn-orange');
-            $('.slide.current .next.btn').addClass('btn-invalid');
+            $('.slide.current[data-slide="1"] .next.btn').removeClass('btn-orange');
+            $('.slide.current[data-slide="1"] .next.btn').addClass('btn-invalid');
+        }
+    });
+
+    //T&C validation on slide 2
+    $('.slide[data-slide="2"] .terms input').click(function() {
+        if ($(this).is(':checked')){
+            $('.slide.current[data-slide="2"] .next.btn').addClass('btn-orange');
+            $('.slide.current[data-slide="2"] .next.btn').removeClass('btn-invalid');
+        } else {
+            $('.slide.current[data-slide="2"] .next.btn').removeClass('btn-orange');
+            $('.slide.current[data-slide="2"] .next.btn').addClass('btn-invalid');
+        }
+    });
+
+    //Button validation on slide 3
+    $('.slide[data-slide="3"] .input:not(select)').on('blur', function() {
+        var $valid = 1;
+        $('.slide[data-slide="3"] .input:not(select)').each(function(){
+            if ($(this).val() == "") {
+                $valid = 0;
+            }
+            if ($(this).is(":valid") != 1){
+                $valid = 0;
+            }
+        });
+
+        if ($valid == 1){
+            $('.slide[data-slide="3"] .next.btn').addClass('btn-orange');
+            $('.slide[data-slide="3"] .next.btn').removeClass('btn-invalid');
+        } else {
+            $('.slide[data-slide="3"] .next.btn').removeClass('btn-orange');
+            $('.slide[data-slide="3"] .next.btn').addClass('btn-invalid');
         }
     });
 

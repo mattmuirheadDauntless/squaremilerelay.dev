@@ -48,6 +48,8 @@
     &.btn-invalid {
         border-color: $lightestgrey;
         color: $lightestgrey;
+
+        pointer-events: none;
     }
     &.btn-light {
         border-color: $black;

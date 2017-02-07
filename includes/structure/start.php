@@ -317,6 +317,10 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="terms">
+                            <input type="checkbox">
+                            <label for="">I accept the <a href="#">Terms &amp; Conditions</a></label>
+                        </div>
                         <div class="next btn btn-invalid">Next</div>
                     </div>
 
@@ -324,16 +328,85 @@
                         <div class="modal-header">
                             <h4 class="modal-title">Payment</h4>
                         </div>
-                        <div class="next btn btn-orange">Next</div>
+                        <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Card Number">
+                            <label>Card Number</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid card number.</div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Name on Card">
+                            <label>Name on Card</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid card name.</div>
+                        </div>
+                        <div class="input-wrapper half-width">
+                            <input class="input" type="text" placeholder="Expires">
+                            <label>Expires</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid expiry date.</div>
+                        </div>
+                        <div class="input-wrapper half-width">
+                            <input class="input" type="text" placeholder="Card Code">
+                            <label>Card Code</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid card code.</div>
+                        </div>
+                        <div class="next btn btn-invalid">Make Payment</div>
+                        <div class="payment-total">
+                            Payment Total <strong>£1,590.05</strong>
+                        </div>
                     </div>
 
-                    <div class="slide" data-slide="4">
-                        thank you
-                        <div class="next btn btn-orange">Next</div>
+                    <div class="slide text-center" data-slide="4">
+                        <div class="thank-you-text">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Thank You!</h4>
+                            </div>
+                            <p>You have registered successfully. Visit your dashboard to start building you team.</p>
+                        </div>
+                        <div class="next btn btn-orange thank-you-btn">Dashboard</div>
                     </div>
 
                     <div class="slide" data-slide="5">
-                        Moment of time
+                        <div class="modal-header">
+                            <h4 class="modal-title">Moment of your time?</h4>
+                        </div>
+                        <div class="input-wrapper">
+                            <select class="input">
+                                <option value="">Option 1</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                            </select>
+                            <label>How did you hear about us?</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid option.</div>
+                        </div>
+                        <div class="input-wrapper">
+                            <select class="input">
+                                <option value="">Option 1</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                            </select>
+                            <label>How is your entry funded?</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid option.</div>
+                        </div>
+                         <div class="input-wrapper">
+                            <textarea class="input" type="text" placeholder="What is yout team's main reason for entering the race?"></textarea>
+                            <label>What is yout team's main reason for entering the race?</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid reason.</div>
+                        </div>
+                        <a href="my-account.php" class="btn btn-light btn-long">Skip</a>
+                        <a href="my-account.php" class="btn btn-orange btn-long">Submit</a>
                     </div>
 
                     <div class="modal-footer stages">
