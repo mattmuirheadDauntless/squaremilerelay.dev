@@ -45,7 +45,7 @@
                     }
                     .cost {
                         font-size: 18px;
-                        font-weight: 200;
+                        font-weight: 400;
                     }
                 }
             }
@@ -66,6 +66,13 @@
                         text-align: center;
                         line-height: 20px;
                         color: $white;
+                        p {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 15px;
+                        }
                     }
                 }
             }
@@ -89,6 +96,14 @@
                         text-align: center;
                         line-height: 21px;
                         color: $white;
+
+                        p {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 15px;
+                        }
                     }
                 }
             }
@@ -116,6 +131,7 @@
                             top: inherit;
                             left: inherit;
                             margin: 30px auto 10px;
+
                         }
                     }
                 }
@@ -129,6 +145,7 @@
                             top: inherit;
                             right: inherit;
                             margin: 30px auto 0;
+                            line-height: 20px;
                         }
                     }
                 }

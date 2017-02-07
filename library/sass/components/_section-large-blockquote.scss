@@ -2,6 +2,7 @@
     clear: both;
     background-color: $white;
     padding: 150px 0 180px;
+    background-color: $white;
     h2 {
         position: relative;
         margin: 0;
@@ -22,9 +23,53 @@
     }
 }
 
+.large-blockquote-img {
+    background-image: url(../../library/images/square-mile-dubai-map-background.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    clear: both;
+    padding: 384px 0 290px;
+    //background-color: $white;
+    position: relative;
+    z-index: 5;
+    h2 {
+        position: relative;
+        margin: 0;
+        line-height: 45px;
+        font-size: 30px;
+        font-weight: 800;
+        padding: 0 180px;
+        &:before {
+            position: absolute;
+            top: -22px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $orange;
+            font-size: 120px;
+            font-weight: 800;
+            font-style: italic;
+            content: '"';
+        }
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+}
+
 @include desktop {
     .large-blockquote {
         padding: 100px 0 130px;
+    }
+}
+
+@include tablet-l {
+    .large-blockquote-img {
+        padding: 260px 0 170px;
+        h2 {
+            padding: 0 100px;
+        }
     }
 }
 
@@ -36,6 +81,20 @@
             font-size: 33px;
             &:before {
                 left: 38%;
+            }
+        }
+    }
+
+    .large-blockquote-img {
+        padding: 158px 0 90px;
+        h2 {
+            padding: 0 10px;
+            font-size: 20px;
+            line-height: 32px;
+
+            &:before {
+                font-size: 90px;
+                font-weight: 800;
             }
         }
     }
