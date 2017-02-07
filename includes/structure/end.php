@@ -19,10 +19,10 @@
                     <div class="col-md-3">
                         <h4>Quicklinks</h4>
                         <ul>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Terms Of Service</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="#" type="button" data-toggle="modal" data-target="#contact">Contact</a></li>
+                            <li><a href="terms-of-service.php">Terms Of Service</a></li>
+                            <li><a href="privacy-policy.php">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
@@ -30,6 +30,7 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i>Linkedin</a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
                             <li><a href="#"><i class="fa fa-rss"></i>RSS</a></li>
                         </ul>

@@ -1,4 +1,30 @@
 .table-wrapper {
+    &:before {
+        display: none;
+        position: absolute;
+        top: 22px;
+        left: 40px;
+        z-index: 9;
+        text-rendering: auto;
+        color: $lightgrey;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 25px;
+        content: '\f07e';
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    &:after {
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: 90px;
+        z-index: 9;
+        text-transform: uppercase;
+        color: $lightgrey;
+        font-weight: 100;
+        content: 'Swipe for more';
+    }
     table {
         margin-bottom: 100px;
         width: 100%;
@@ -8,14 +34,23 @@
                 background-color: $white !important;
             }
         }
+        &.tablesorter {
+            tr {
+                th {
+                    cursor: pointer;
+                }
+            }
+        }
         tr {
             background-color: $offwhite;
             &:nth-child(odd) {
                 background-color: $lightergrey;
             }
+            &.heading-row {
+                cursor: pointer;
+            }
             th {
                 position: relative;
-                cursor: pointer;
                 padding: 10px;
                 text-align: left;
                 font-weight: 700;
@@ -61,8 +96,58 @@
             }
             td {
                 padding: 20px;
+                min-width: 200px;
                 text-align: left;
                 font-size: 18px;
+                &.table-expander {
+                    transition: all ease-in .3s;
+                    padding: 5px 20px 5px 40px;
+                    div {
+                        transition: all ease-in .3s;
+                        height: auto;
+                        max-height: 0;
+                        overflow: hidden;
+                        img {
+                            float: left;
+                            margin-right: 60px;
+                            width: 150px;
+                            height: auto;
+                        }
+                        ul {
+                            float: left;
+                            margin: 0;
+                            margin-right: 80px;
+                            padding: 0;
+                            width: 23%;
+                            list-style: none;
+
+                            @include phone {
+                                width: calc(100vw - 80px);
+                            }
+                            li {
+                                margin-bottom: 10px;
+                                width: 100%;
+                                font-size: 16px;
+                                span {
+                                    float: right;
+                                }
+                            }
+                            &:first-of-type {
+                                li:first-child {
+                                    font-weight: 800;
+                                }
+                            }
+                        }
+                    }
+                    &.active {
+                        transition: all ease-in .3s;
+                        padding: 20px 20px 20px 40px;
+                        div {
+                            transition: all ease-in .3s;
+                            max-height: 999px;
+                        }
+                    }
+                }
                 &:first-child {
                     padding-left: 40px;
                 }
@@ -70,6 +155,11 @@
                     margin-right: 20px;
                     width: auto;
                     height: 50px;
+                }
+                .fa-chevron-right {
+                    transition: all ease-in .3s;
+                    margin-left: 60px;
+                    font-size: 14px;
                 }
                 strong {
                     letter-spacing: 1px;
@@ -79,6 +169,17 @@
                 .orange {
                     color: $lightorange;
                 }
+                .italic {
+                    display: block;
+                    font-size: 16px;
+                    font-style: italic;
+                }
+            }
+            &.active {
+                .fa-chevron-right {
+                    transform: rotate(90deg);
+                    transition: all ease-in .3s;
+                }
             }
         }
     }
@@ -86,10 +187,15 @@
 
 @include tablet-l {
     .table-wrapper {
+        padding-top: 50px;
         max-width: 100%;
 
         -webkit-overflow-scrolling: touch;
         overflow-x: scroll;
+        &:before,
+        &:after {
+            display: block;
+        }
         table {
             th,
             td {

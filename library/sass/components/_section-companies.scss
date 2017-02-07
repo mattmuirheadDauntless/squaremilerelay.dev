@@ -4,7 +4,7 @@
     width: calc(100% - 21px);
     .companies-item {
         padding: 11.5px 10.5px 55px;
-        width: 25%;
+        width: 16.66%;
         img {
             width: 100%;
             height: auto;
@@ -33,6 +33,14 @@
         border: 1px solid $lightgrey;
         height: 1px;
         text-align: center;
+    }
+}
+
+@include desktop {
+    .companies {
+        .companies-item {
+            width: 25%;
+        }
     }
 }
 

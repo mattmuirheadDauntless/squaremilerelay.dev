@@ -45,23 +45,10 @@
         </div>
     </section>
     <section class="global-gallery">
-        <!-- Modal -->
-        <div class="modal fade" id="img-lightbox" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <img src="library/images/demo-news.jpg" alt="Gallery Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="gallery-grid">
             <div class="stamp">
-                <div class="vid-item dubai" data-toggle="modal" data-target="#img-lightbox">
+                <div class="vid-item dubai vid-modal-link" data-toggle="modal" data-target="#media" data-src="http://r18---sn-aigllney.googlevideo.com/videoplayback?signature=CDD6EB7997EE6EA9EFACDF38ECC324B9129F4FCF.69687CF60D380CCE7898120C62950B448C2FEE24&fallback_host=redirector.googlevideo.com&quality=hd720&upn=fJkwkK_IgrA&dur=13.444&ip=83.222.234.72&ratebypass=yes&ipbits=0&mv=u&mm=31&source=youtube&pl=23&mn=sn-aigllney&id=o-AJV6gxO-M4fYIZ5NnnoA0tA_eEbfGIiij6W7XAMsBMhQ&ms=au&sparams=dur,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,source,upn,expire&nh=IgpwcjAxLmxocjI1KgkxMjcuMC4wLjE&lmt=1471048617131497&itag=22&mime=video%2Fmp4&key=yt6&expire=1486421056&mt=1486399434&signature=">
                     <img src="library/images/demo-news.jpg" alt="Video">
                     <div class="play-video">
                         <div class="play-btn">
@@ -70,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="vid-item dubai 2017" data-toggle="modal" data-target="#img-lightbox">
+                <div class="vid-item dubai 2017 vid-modal-link" data-toggle="modal" data-target="#media" data-src="http://r18---sn-aigllney.googlevideo.com/videoplayback?signature=CDD6EB7997EE6EA9EFACDF38ECC324B9129F4FCF.69687CF60D380CCE7898120C62950B448C2FEE24&fallback_host=redirector.googlevideo.com&quality=hd720&upn=fJkwkK_IgrA&dur=13.444&ip=83.222.234.72&ratebypass=yes&ipbits=0&mv=u&mm=31&source=youtube&pl=23&mn=sn-aigllney&id=o-AJV6gxO-M4fYIZ5NnnoA0tA_eEbfGIiij6W7XAMsBMhQ&ms=au&sparams=dur,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,source,upn,expire&nh=IgpwcjAxLmxocjI1KgkxMjcuMC4wLjE&lmt=1471048617131497&itag=22&mime=video%2Fmp4&key=yt6&expire=1486421056&mt=1486399434&signature=">
                     <img src="library/images/demo-news.jpg" alt="Video">
                     <div class="play-video">
                         <div class="play-btn">
@@ -78,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="vid-item newyork" data-toggle="modal" data-target="#img-lightbox">
+                <div class="vid-item newyork vid-modal-link" d vid-modal-linkata-toggle="modal" data-target="#media" data-src="http://r18---sn-aigllney.googlevideo.com/videoplayback?signature=CDD6EB7997EE6EA9EFACDF38ECC324B9129F4FCF.69687CF60D380CCE7898120C62950B448C2FEE24&fallback_host=redirector.googlevideo.com&quality=hd720&upn=fJkwkK_IgrA&dur=13.444&ip=83.222.234.72&ratebypass=yes&ipbits=0&mv=u&mm=31&source=youtube&pl=23&mn=sn-aigllney&id=o-AJV6gxO-M4fYIZ5NnnoA0tA_eEbfGIiij6W7XAMsBMhQ&ms=au&sparams=dur,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,source,upn,expire&nh=IgpwcjAxLmxocjI1KgkxMjcuMC4wLjE&lmt=1471048617131497&itag=22&mime=video%2Fmp4&key=yt6&expire=1486421056&mt=1486399434&signature=">
                     <img src="library/images/demo-news.jpg" alt="Video">
                     <div class="play-video">
                         <div class="play-btn">
@@ -86,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="vid-item london" data-toggle="modal" data-target="#img-lightbox">
+                <div class="vid-item london vid-modal-link" da vid-modal-linkta-toggle="modal" data-target="#media" data-src="http://r18---sn-aigllney.googlevideo.com/videoplayback?signature=CDD6EB7997EE6EA9EFACDF38ECC324B9129F4FCF.69687CF60D380CCE7898120C62950B448C2FEE24&fallback_host=redirector.googlevideo.com&quality=hd720&upn=fJkwkK_IgrA&dur=13.444&ip=83.222.234.72&ratebypass=yes&ipbits=0&mv=u&mm=31&source=youtube&pl=23&mn=sn-aigllney&id=o-AJV6gxO-M4fYIZ5NnnoA0tA_eEbfGIiij6W7XAMsBMhQ&ms=au&sparams=dur,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,source,upn,expire&nh=IgpwcjAxLmxocjI1KgkxMjcuMC4wLjE&lmt=1471048617131497&itag=22&mime=video%2Fmp4&key=yt6&expire=1486421056&mt=1486399434&signature=">
                     <img src="library/images/demo-news.jpg" alt="Video">
                     <div class="play-video">
                         <div class="play-btn">
@@ -95,49 +82,49 @@
                     </div>
                 </div>
             </div>
-            <div class="img-item grid-item dubai" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link dubai" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="http://fakeimg.pl/250x100/" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="http://fakeimg.pl/350x400/" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="http://fakeimg.pl/350x500/" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="http://fakeimg.pl/250x400/" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="http://fakeimg.pl/350x600/" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
-            <div class="img-item grid-item" data-toggle="modal" data-target="#img-lightbox">
+            <div class="img-item grid-item img-modal-link" data-toggle="modal" data-target="#media" data-src="library/images/demo-news.jpg">
                 <img src="library/images/demo-news.jpg" alt="Gallery Image">
             </div>
         </div>

@@ -20,35 +20,23 @@
         <div class="wrapper-thin">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Sydney has been a fabulous new addition to the Square Mile family</h2>
+                    <h2>Square Mile Sport, in conjunction with Bloomberg, has announced the Bloomberg Square Mile Relay will return to Sydney for a second year on March 15 2017, following the hugely successful inaugural race in the city earlier this year.</h2>
 
-                    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                    <img src="//www.squaremilerelay.com/media/original/3515/530x2000.jpg">
 
-                    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                    <p> The streets and sidewalks around the Darling Harbour will once again become an urban racetrack as teams of employees from over 100 top corporate organisations challenge one another as they pace their way along the unique one mile (1.6km) course around the Harbour and over Pyrmont Bridge in this ultimate corporate relay race.</p>
 
-                    <h3>Lorem ipsum dolor </h3>
+                    <p>The internationally-renowned annual event brings together Sydney’s top businesses as teams of 10 employees each take it in turn to run the unconventional one-mile route, all in a bid to be crowned the fastest company in Sydney. The race culminates in a celebratory after-party where runners and supporters will enjoy food, drinks and live entertainment throughout the evening in Tumbalong Park.</p>
 
-                    <img src="http://fakeimg.pl/500x200/">
+                    <p>The event places strong emphasis on teamwork and employee interaction, making it a compelling attraction for Sydney’s corporates and financial institutions such as Bank of America Merrill Lynch, Commonwealth Bank, J.P. Morgan, Macquarie, MasterCard, National Bank of Australia, Societe Generale, Royal Bank of Canada and many others who all participated last year. </p>
 
-                    <h3>A fabulous new addition to the square mile family</h3>
+                    <p>The annual corporate team-bonding event is the second leg of the well-established global series taking place in seven major financial cities across the world including Dubai, New York, London, Shanghai, Singapore and Hong Kong.</p>
 
-                    <ol>
-                       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                       <li>Aliquam tincidunt mauris eu risus.</li>
-                    </ol>
+                    <p>Bloomberg, the global business and financial information and news leader, has been the headline sponsor of the Square Mile Relay since the race started in 2007 in the City of London, UK. Emily Gordon, Head of Bloomberg, Australia said, "We are thrilled to be associated with one of the most successful corporate relays in the world. In a city where collaboration, fitness and well-being rank high in the work place, I can't think of a better way for companies to demonstrate camaraderie and build team spirit than at this exciting race."</p>
 
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend.</blockquote>
+                    <p>2016 was the inaugural year of the Bloomberg Square Mile Relay in Sydney and saw J.P. Morgan take the coveted title completing the 10-lap course in a time of 1:02:12, outrunning 50 other corporate teams to win a prize of $10,000 to donate to their nominated charity, the Indigenous Marathon Foundation. </p>
 
-                    <h3>A fabulous new addition to the square mile family Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perferendis quia repellat magni perspiciatis! Hic, delectus. Architecto soluta esse molestias? Eveniet reprehenderit aliquam maxime modi expedita ducimus magni illo ipsa.</h3>
-
-                    <ul>
-                       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                       <li>Aliquam tincidunt mauris eu risus.</li>
-                    </ul>
-
-                    <h4>HTML Ipsum Presents</h4>
-
-                    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                    <p>The relay is a key opportunity for organisations to build team spirit, boost employee engagement and promote an active lifestyle in the workplace. The success of the series is no surprise given the current focus of employee wellbeing and welfare. Nick Keller, CEO, Square Mile Sport, commented, “After such a successful event earlier this year we are delighted to be returning to Sydney on 15th March 2017 to host the race for a second year. I am looking forward to seeing the same enthusiasm, competitive spirit and teamwork from Sydney’s business community that made the inaugural event such a success.” </p>
                 </div>
                 <div class="col-md-3">
                     <div class="share-wrapper">

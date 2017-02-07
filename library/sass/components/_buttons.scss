@@ -45,6 +45,10 @@
         color: $orange;
         font-size: 14px;
     }
+    &.btn-invalid {
+        border-color: $lightestgrey;
+        color: $lightestgrey;
+    }
     &.btn-light {
         border-color: $black;
         background-color: $white;

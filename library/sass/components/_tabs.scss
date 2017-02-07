@@ -49,16 +49,6 @@
 @include tablet-l {
     .tabs-container {
         .tab {
-            .text {
-                font-size: 20px;
-            }
-        }
-    }
-}
-
-@include phone {
-    .tabs-container {
-        .tab {
             margin: 19px 10px 0;
             width: calc(33.33% - 20px);
             text-align: center;

@@ -1,44 +1,60 @@
 .notification {
-    color: $white;
-    width: 100%;
-    clear: both;
     position: relative;
-    padding: 15px 30% 8px 60px;
-    border-radius: 5px;
+    clear: both;
     margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px 30% 8px 60px;
+    width: 100%;
+    color: $white;
     &.error {
         background-color: $lightorange;
     }
     .fa-exclamation-triangle {
         position: absolute;
-        left: 20px;
         top: 50%;
+        left: 20px;
         transform: translate(0, -50%);
         font-size: 20px;
     }
     p {
-        font-weight: 400;
         font-size: 16px;
+        font-weight: 400;
         strong {
-            font-weight: 400;
             text-transform: uppercase;
+            font-weight: 400;
         }
     }
     .close {
         position: absolute;
-        right: 20px;
         top: 50%;
+        right: 20px;
         transform: translate(0, -50%);
-        color: $white;
         opacity: 1;
-        font-weight: 400;
-        text-shadow: none;
-        font-size: 12px;
         text-transform: uppercase;
+        text-shadow: none;
+        color: $white;
+        font-size: 12px;
+        font-weight: 400;
         i {
             margin-left: 10px;
-            font-size: 20px;
             vertical-align: -2px;
+            font-size: 20px;
+        }
+    }
+}
+
+@include phone {
+    .notification {
+        padding: 50px 15px 20px;
+        .fa-exclamation-triangle {
+            top: 10px;
+            left: 10px;
+            transform: none;
+        }
+        .close {
+            top: 10px;
+            right: 10px;
+            transform: none;
         }
     }
 }
