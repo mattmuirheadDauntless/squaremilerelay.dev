@@ -197,24 +197,30 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="http://fakeimg.pl/250x100/" alt="Company logo">
-                        <h4>Headline Sponsor</h4>
-
-                        <img src="http://fakeimg.pl/250x100/" alt="Company logo">
+                        <img src="http://fakeimg.pl/230x100/" alt="Company logo">
                         <h4>Headline Sponsor</h4>
                     </div>
                     <div class="col-md-4">
-                        <img src="http://fakeimg.pl/250x100/" alt="Company logo">
-                        <h4>Fitness Partner</h4>
-
-                        <img src="http://fakeimg.pl/250x100/" alt="Company logo">
+                        <img src="http://fakeimg.pl/230x100/" alt="Company logo">
                         <h4>Fitness Partner</h4>
                     </div>
                     <div class="col-md-4">
-                        <img src="http://fakeimg.pl/250x100/" alt="Company logo">
+                        <img src="http://fakeimg.pl/230x100/" alt="Company logo">
                         <h4>News Sponsor</h4>
+                    </div>
+                </div>
 
-                        <img src="http://fakeimg.pl/250x100/" alt="Company logo">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="http://fakeimg.pl/230x100/" alt="Company logo">
+                        <h4>Headline Sponsor</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://fakeimg.pl/230x100/" alt="Company logo">
+                        <h4>Fitness Partner</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://fakeimg.pl/230x100/" alt="Company logo">
                         <h4>Headline Sponsor</h4>
                     </div>
                 </div>
@@ -305,11 +311,12 @@
         </div>
     </section>
 
-    <section class="large-blockquote">
+    <section class="large-blockquote-img">
         <div class="wrapper-thin">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2>Amazing testimonial wording about how much fun a certain celebrity banker had, while not behind his desk!</h2>
+                    <p>&dash; Mo Farah</p>
                 </div>
             </div>
         </div>

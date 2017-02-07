@@ -379,6 +379,7 @@ $gutterWidth: 230px;
     &.city-partners {
         .row {
             .col-md-4 {
+                text-align: center;
                 img {
                     margin-top: 70px;
                     margin-bottom: 25px;
@@ -388,7 +389,6 @@ $gutterWidth: 230px;
                     font-size: 22px;
                     font-weight: 800;
                     color: $lightgrey;
-                    text-align: center;
                     margin-top: 20px;
                     margin-bottom: 40px;
                     text-transform: capitalize;
@@ -419,6 +419,255 @@ $gutterWidth: 230px;
                 font-size: 15px;
                 color: $grey;
                 margin-bottom: 18px;
+            }
+        }
+    }
+}
+@include tablet-l {
+    .races-by-year-nav {
+        ul {
+            li {
+                margin: 0;
+            }
+        }
+    }
+
+    .races-by-year {
+        background-color: $white;
+            .slide-nav {
+                display: none;
+            }
+
+            .race-year {
+                margin-left: 0;
+                .city-schedule {
+                    h3 {
+                        color: $black;
+                        &:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+                }
+
+                .city-course {
+                    h3 {
+                        color: $black;
+                        &:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+                    .row {
+                        .col-md-7 {
+                            .img-button {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+
+                        .col-md-5 {
+                            h4 {
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+                .city-overview {
+                    h3 {
+                        color: $black;
+                        &:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    .row {
+                        .col-md-4 {
+                            img {
+                                width: 50%;
+                                margin: 0 10px 10px 0;
+                                float: left;
+                                width: calc(50% - 10px);
+                            }
+                        }
+                    }
+                }
+                .city-gallery {
+                    h3 {
+                        color: $black;
+                        &:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+                    .gallery-grid {
+                        .grid-item {
+                            width: 33.33%;
+                        }
+                    }
+                }
+                .city-partners {
+                    h3 {
+                        color: $black;
+                        &:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+                    .row {
+                        .col-md-4 {
+                            h4 {
+                                margin-top: 10px;
+                            }
+
+                            img {
+                                width: 100%;
+                                max-width: 450px;
+                            }
+                        }
+                    }
+                }
+                .city-charities {
+                    padding-bottom: 30px;
+                    h3 {
+                        color: $black;
+                        &:before {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+                    .row {
+                        .col-md-8 {
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+@include phone {
+    .races-by-year-nav {
+        ul {
+            padding: 0 25px;
+        }
+    }
+
+    .races-by-year {
+        .race-year {
+            .city-schedule {
+                .timeline {
+                    margin: 5px 50px 40px;
+                    &:before {
+                        display: none;
+                    }
+
+                    li {
+                        position: relative !important;
+                        left: 0 !important;
+                        transform: none !important;
+
+                        &:before {
+                            position: absolute;
+                            top: 17px;
+                            left: -40px;
+                            transform: none;
+                        }
+
+                        &:first-child {
+                            &:before {
+                                left: -40px;
+                            }
+                        }
+
+                        &:last-child {
+                            text-align: left;
+                            &:before {
+                                left: -40px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .city-course {
+                .row {
+                    .col-md-7 {
+                        .img-button {
+                            margin-bottom: 45px;
+                            .btn {
+                                top: 85%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .city-overview {
+                .row {
+                    .col-md-4 {
+                        img {
+                            width: 100%;
+                            height: auto;
+                            margin-right: 0 0 10px;
+                        }
+                    }
+                }
+            }
+
+            .city-gallery {
+                .gallery-grid {
+                    margin: 0;
+                    width: 100%;
+                    .grid-item {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .city-partners {
+                .row {
+                    .col-md-4 {
+                        img {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+
+            .city-charities {
+                .row {
+                    margin-bottom: 40px;
+                    .col-md-4 {
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
             }
         }
     }
