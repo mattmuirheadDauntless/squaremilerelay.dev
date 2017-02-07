@@ -60,97 +60,16 @@
             width: 100%;
         }
     }
-    .modal {
-        .modal-dialog {
-            margin: 0;
-            width: 100%;
-            max-width: none;
-            .modal-content {
-                background-color: transparent;
-                .modal-body {
-                    text-align: center;
-                    div {
-                        display: inline-block;
-                        position: relative;
-                        button {
-                            position: absolute;
-                            top: 10px;
-                            right: 20px;
-                            opacity: 1;
-                            text-shadow: none;
-                            color: $orange;
-                            font-size: 35px;
-                        }
-                        img {
-                            max-width: 100%;
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
 
 @include tablet-l {
     .global-gallery {
         float: none;
         width: 100%;
-        .vid-gallery-heading {
-            display: none;
-        }
-        .img-gallery-heading {
-            display: none;
-        }
-        .vid-gallery {
-            float: none;
-            width: 100%;
-            .vid-item {
-                padding: 10px 25px;
-                width: 100%;
-                &:hover {
-                    img {
-                        transform: none;
-                        transition: none;
-                    }
-                }
-            }
-        }
-        .img-gallery {
-            float: none;
-            width: 100%;
-            .img-item {
-                padding: 10px 25px;
-                width: 100%;
-                &:hover {
-                    img {
-                        transform: none;
-                        transition: none;
-                    }
-                }
-            }
-        }
-    }
-    .global-gallery-filter {
-        .filter-dropdown {
-            padding: 0 20px;
-            .year-filter {
-                margin-bottom: 3px;
-                border: 0;
-                border-bottom: 1px solid $bordergrey;
-                padding: 5px;
-                width: 100%;
-                li {
-                    padding: 17px 30px 17px 0;
-                }
-            }
-            .country-filter {
-                margin-bottom: 3px;
-                border: 0;
-                padding: 5px;
-                width: 100%;
-                li {
-                    padding: 17px 30px 17px 0;
-                }
+        .gallery-grid {
+            .grid-item,
+            .stamp {
+                width: 33.33%;
             }
         }
     }
@@ -158,30 +77,12 @@
 
 @include phone {
     .global-gallery {
-        padding-top: 30px;
-        .vid-gallery {
-            .vid-item {
-                padding: 5px 20px;
-            }
-        }
-        .img-gallery {
-            .img-item {
-                padding: 5px 20px;
-            }
-        }
-    }
-    .global-gallery-filter {
-        .global-gallery-filter-btn {
-            .view-all {
-                .fa-times {
-                    display: none;
-                }
-            }
-        }
-        .filter-dropdown {
-            ul li {
-                padding: 14px 20px;
-                font-size: 11px;
+        float: none;
+        width: 100%;
+        .gallery-grid {
+            .grid-item,
+            .stamp {
+                width: 50%;
             }
         }
     }

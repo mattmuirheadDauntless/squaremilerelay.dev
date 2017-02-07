@@ -4,7 +4,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) !important;
-        margin: 0 20px;
+        margin: 0;
         width: calc(100% - 40px);
         max-width: 530px;
         .modal-content {
@@ -17,7 +17,7 @@
                 h4 {
                     color: $grey;
                     font-size: 26px;
-                    font-weight: 900;
+                    font-weight: 800;
                 }
             }
             .modal-body {
@@ -29,12 +29,254 @@
             text-align: center;
         }
     }
+    &.media-modal {
+        background-color: transparent;
+        .close {
+            position: fixed;
+            top: 13px;
+            right: 25px;
+            opacity: 1;
+            text-shadow: none;
+            color: $orange;
+            font-size: 50px;
+            &:active,
+            &:focus {
+                outline: none;
+            }
+        }
+        .modal-dialog {
+            width: inherit;
+            max-width: none;
+            .modal-content {
+                background-color: transparent;
+                .modal-body {
+                    background-color: transparent;
+                    padding: 0 20px;
+                    .img {
+                        max-width: 100%;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .video {
+                        max-width: 100%;
+                        video {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.enter {
+        .modal-content {
+            height: 750px;
+            overflow: hidden;
+        }
+        .slide {
+            position: absolute;
+            transform: translateX(100%);
+            transition: all ease-in .3s;
+            padding: 26px 21px 22px;
+            width: 100%;
+            .package {
+                float: left;
+                margin-bottom: 20px;
+                background-color: $lightestgrey;
+                padding: 20px;
+                width: 100%;
+                &:nth-of-type(3) {
+                    background-color: darken($lightestgrey, 5%);
+                }
+                .description {
+                    float: left;
+                    width: 50%;
+                    h5 {
+                        margin: 0 0 15px;
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                }
+                .quantity {
+                    float: left;
+                    padding: 0 30px;
+                    width: 25%;
+                    input {
+                        appearance: none;
+                        border: 0;
+                        border-radius: 3px;
+                        padding: 10px;
+                        width: 50px;
+                        height: 50px;
+                        text-align: center;
+                        font-size: 16px;
+                        &::-webkit-outer-spin-button,
+                        &::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                            margin: 0;
+                        }
+                    }
+                }
+                .price {
+                    float: left;
+                    padding-top: 15px;
+                    width: 25%;
+                }
+            }
+            .next {
+                float: right;
+                margin-top: 10px;
+            }
+            &.current {
+                transform: translateX(0%);
+                transition: all ease-in .3s;
+            }
+            &.completed {
+                transform: translateX(-100%);
+                transition: all ease-in .3s;
+            }
+            .modal-header {
+                padding: 0;
+                h4 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .modal-footer {
+            position: absolute;
+            bottom: 0;
+            border: 0;
+            width: 100%;
+            height: 80px;
+            ul {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                list-style: none;
+                &:before {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: all ease-in .3s;
+                    z-index: 1;
+                    background-color: $lightgrey;
+                    width: calc(100% - 40px);
+                    height: 6px;
+                    content: '';
+                }
+                &:after {
+                    position: absolute;
+                    top: 50%;
+                    left: 20px;
+                    transform: translate(0, -50%);
+                    transition: all ease-in .3s;
+                    z-index: 2;
+                    background-color: $orange;
+                    width: calc(0% - 40px);
+                    height: 6px;
+                    content: '';
+                }
+                li {
+                    position: absolute;
+                    top: 50%;
+                    transition: all ease-in .3s;
+                    z-index: 3;
+                    border: 1px solid $lightgrey;
+                    border-radius: 100%;
+                    background-color: $white;
+                    width: 24px;
+                    height: 24px;
+                    text-align: center;
+                    line-height: 24px;
+                    color: $lightgrey;
+                    &:nth-child(1) {
+                        left: 20px;
+                        transform: translate(0, -50%);
+                    }
+                    &:nth-child(2) {
+                        left: 33.33%;
+                        transform: translate(-25%, -50%);
+                    }
+                    &:nth-child(3) {
+                        left: 66.66% ;
+                        transform: translate(-75%, -50%);
+                    }
+                    &:nth-child(4) {
+                        right: -5px;
+                        left: inherit;
+                        transform: translate(-100%, -50%);
+                    }
+                    &.completed {
+                        transition: all ease-in .3s;
+                        border-color: $orange;
+                        background-color: $orange;
+                        cursor: pointer;
+                        color: $orange;
+                        &:before {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            text-rendering: auto;
+                            color: $white;
+                            font: normal normal normal 14px/1 FontAwesome;
+                            font-size: inherit;
+                            content: "\f00c";
+
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                        }
+                    }
+                    &.current {
+                        transition: all ease-in .3s;
+                        border-width: 6px;
+                        border-color: $orange;
+                        cursor: pointer;
+                        font-size: 0;
+                    }
+                }
+                &.stage-1:after {
+                    width: calc(0% - 40px);
+                }
+                &.stage-2:after {
+                    width: calc(40% - 40px);
+                }
+                &.stage-3:after {
+                    width: calc(70% - 40px);
+                }
+                &.stage-4:after,
+                &.stage-5:after {
+                    width: calc(100% - 40px);
+                }
+            }
+        }
+    }
 }
 .modal-backdrop {
-    background-color: $white;
+    background-color: $black;
     &.in {
         opacity: .75;
 
         filter: alpha(opacity=75);
+    }
+}
+
+@include tablet-l {
+    .modal {
+        .modal-dialog {
+            top: 80px;
+            right: 20px;
+            bottom: 40px;
+            left: 20px;
+            transform: none !important;
+            max-width: none;
+            overflow: scroll;
+        }
     }
 }

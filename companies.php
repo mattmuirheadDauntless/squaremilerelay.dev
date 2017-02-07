@@ -53,81 +53,97 @@
             <div class="btn btn-black filter" data-filter="*">View all categories</div>
         </div>
         <div class="companies-item grid-item dubai 2017">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>36 South Capital Advisors</h3>
             <h4>3 teams</h4>
         </div>
         <div class="companies-item grid-item dubai 2015 2014">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Bloomberg</h3>
             <h4>7 teams</h4>
         </div>
         <div class="companies-item grid-item dubai 2014 2012">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Amundi Asset Management</h3>
             <h4>12 teams</h4>
         </div>
         <div class="companies-item grid-item hongkong 2014 2011">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Bank of Montreal</h3>
             <h4>2 teams</h4>
         </div>
         <div class="companies-item grid-item london 2013 2011">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Allen &amp; Overy</h3>
             <h4>1 team</h4>
         </div>
         <div class="companies-item grid-item newyork 2013 2017">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Bloomberg</h3>
             <h4>2 teams</h4>
         </div>
         <div class="companies-item grid-item singapore 2012 2015">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Amundi Asset Management</h3>
             <h4>12 teams</h4>
         </div>
         <div class="companies-item grid-item sydney 2012 2011">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Bank of Montreal</h3>
             <h4>2 teams</h4>
         </div>
         <div class="companies-item grid-item sanfrancisco 2012 2014">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>36 South Capital Advisors</h3>
             <h4>3 teams</h4>
         </div>
         <div class="companies-item grid-item saopaolo 2012 2013">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Bloomberg</h3>
             <h4>7 teams</h4>
         </div>
         <div class="companies-item grid-item shanghai 2012 2017">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Amundi Asset Management</h3>
             <h4>12 teams</h4>
         </div>
         <div class="companies-item grid-item tokyo 2011 2017">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="Charities item">
             <h3>Bank of Montreal</h3>
             <h4>2 teams</h4>
         </div>
         <div class="companies-item sanfrancisco 2012 2014">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="companies item">
             <h3>Allen &amp; Overy</h3>
             <h4>1 team</h4>
         </div>
         <div class="companies-item saopaolo 2012 2013">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="companies item">
             <h3>Bloomberg</h3>
             <h4>2 teams</h4>
         </div>
         <div class="companies-item shanghai 2012 2017">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="companies item">
             <h3>Amundi Asset Management</h3>
             <h4>12 teams</h4>
         </div>
         <div class="companies-item tokyo 2011 2017">
+            <a href="single-company.php" class="cover-link"></a>
             <img src="library/images/demo-news.jpg" alt="companies item">
             <h3>Bank of Montreal</h3>
             <h4>2 teams</h4>

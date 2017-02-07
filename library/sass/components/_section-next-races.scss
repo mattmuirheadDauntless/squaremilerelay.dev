@@ -26,30 +26,30 @@
                     letter-spacing: 3px;
                     color: $white;
                     font-size: 40px;
-                    font-weight: 900;
+                    font-weight: 700;
                 }
                 //date
                 h3 {
-                    margin: 0 0 6px;
+                    margin: 0 0 7px;
                     color: $white;
                     font-size: 25px;
                     font-weight: 100;
                 }
                 //Next Race:
                 h4 {
-                    margin: 0 0 37px;
+                    margin: 0 0 40px;
                     text-transform: uppercase;
                     letter-spacing: 4px;
                     color: $orange;
                     font-size: 38px;
-                    font-weight: 900;
+                    font-weight: 800;
                 }
                 //number of days
                 h5 {
                     margin: 0;
                     color: $white;
                     font-size: 64px;
-                    font-weight: 700;
+                    font-weight: 800;
                 }
             }
             img {
@@ -107,7 +107,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             font-size: 24px;
-            font-weight: 900;
+            font-weight: 800;
         }
         &:hover {
             transition: all ease-in .4s .2s;
@@ -122,29 +122,30 @@
             .race {
                 height: 279px;
                 .text {
-                    padding: 28px 30px;
+                    padding: 32px 35px;
                     //location
                     h2 {
-                        font-size: 30px;
+                        font-size: 33px;
                     }
                     //date
                     h3 {
-                        font-size: 15px;
+                        font-size: 17px;
                     }
                     //Next Race:
                     h4 {
-                        font-size: 28px;
+                        font-size: 31px;
                     }
                     //number of days
                     h5 {
-                        font-size: 54px;
+                        font-size: 57px;
                     }
                 }
             }
         }
         .view-more {
-            height: 254px;
+            height: 279px;
             span {
+                left: 13px;
                 width: 310px;
                 font-size: 20px;
             }
@@ -175,6 +176,7 @@
             height: auto;
             span {
                 position: relative;
+                left: 0;
                 transform: none;
                 margin: 0;
                 padding: 20px 0;
@@ -191,19 +193,6 @@
             width: 100%;
             .race {
                 float: none;
-                width: 100%;
-            }
-        }
-        .view-more {
-            float: left;
-            transform: none;
-            width: 100%;
-            height: auto;
-            span {
-                position: relative;
-                transform: none;
-                margin: 0;
-                padding: 20px 0;
                 width: 100%;
             }
         }

@@ -1,12 +1,44 @@
 * {
     box-sizing: border-box;
+    &:focus,
+    &:active {
+        outline: none;
+    }
+    &::selection {
+        background-color: $lightorange;
+        color: $black;
+    }
 }
 html,
 body {
     margin: 0;
+    background-color: $white;
     padding: 0;
     font-family: $bodyFont;
     font-weight: 400;
+}
+
+body {
+    &:before {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;
+        background-color: $black;
+        height: 200px;
+        content: '';
+    }
+    &:after {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background-color: $black;
+        height: 200px;
+        content: '';
+    }
 }
 
 .cover-link {

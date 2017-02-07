@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>Square Mile Relay</title>
 
         <!-- Fonts -->
@@ -92,7 +92,7 @@
                                 </div>
                             </a></li>
                             <li><a href="single-city.php">
-                                <img src="library/images/cities/saoPaulo.png">
+                                <img src="library/images/cities/saoPaolo.png">
                                 <div class="location">
                                     Sao Paulo
                                 </div>
@@ -111,19 +111,20 @@
             </ul>
 
             <div class="header-account">
-                <a href="#" type="button" data-toggle="modal" data-target="#myModal">Login</a>
+                <a href="#" type="button" data-toggle="modal" data-target="#login">Login</a>
             </div>
 
             <div class="header-bg"></div>
 
              <div class="cta-banner">
                 Choose a City. Create a team. Run to win.
-                <a href="#" class="btn btn-black">Enter Your Race</a>
+                <a href="#" class="btn btn-black" type="button" data-toggle="modal" data-target="#enterRace">Enter Your Race</a>
             </div>
 
         </header>
 
-        <div id="myModal" class="modal fade" role="dialog">
+        <!-- MODALS -->
+        <div id="login" class="modal fade" role="dialog">
             <div class="modal-dialog">
 
                 <div class="modal-content">
@@ -153,4 +154,199 @@
 
             </div>
         </div>
+
+        <div id="contact" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Contact Us</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Your Name">
+                            <label>Your Name</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">That name is invalid.</div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input class="input" type="email" placeholder="Email">
+                            <label>Email</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">That email is invalid.</div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input class="input" type="email" placeholder="Phone">
+                            <label>Phone</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">That phone number is invalid.</div>
+                        </div>
+                        <div class="input-wrapper">
+                            <select class="input">
+                                <option value="">Dubai</option>
+                                <option value="">London</option>
+                                <option value="">New York</option>
+                            </select>
+                            <label>City you are interested in</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                        </div>
+                        <div class="input-wrapper">
+                            <textarea class="input" placeholder="Message"></textarea>
+                            <label>Message</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">That phone number is invalid.</div>
+                        </div>
+                        <div class="button-group">
+                            <a href="#" class="btn btn-orange btn-long">Submit</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="media" class="modal fade media-modal" role="dialog">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="img hide">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="video hide">
+                            <video src="" controls></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="enterRace" class="modal fade enter" role="dialog">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="slide current" data-slide="1">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Your Information</h4>
+                        </div>
+                         <div class="input-wrapper">
+                            <select class="input">
+                                <option value="">Dubai</option>
+                                <option value="">London</option>
+                                <option value="">New York</option>
+                            </select>
+                            <label>Race City</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Your username is incorrect.</div>
+                        </div>
+                         <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Full Name">
+                            <label>Full Name</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">That is not a valid name.</div>
+                        </div>
+                         <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Company Name">
+                            <label>Company Name</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">That is not a valid company name.</div>
+                        </div>
+                         <div class="input-wrapper">
+                            <input class="input" type="email" placeholder="Email">
+                            <label>Email</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid email address.</div>
+                        </div>
+                         <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Mobile Phone">
+                            <label>Mobile Phone</label>
+                            <i class="fa validation-icon" aria-hidden="true"></i>
+                            <div class="msg valid">Great!</div>
+                            <div class="msg in-valid">Please enter a valid phone number.</div>
+                        </div>
+                        <div class="next btn btn-invalid">Continue</div>
+                    </div>
+
+                    <div class="slide" data-slide="2">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Team Packages</h4>
+                        </div>
+                        <div class="package">
+                            <div class="description">
+                                <h5>Teams</h5>
+                                <p>Teams consist og 10 runners. Each runner will receive 1 meal, 2 drinks, 1 t-shirt and access to the after party</p>
+                            </div>
+                            <div class="quantity">
+                                <input type="number" value="1">
+                            </div>
+                            <div class="price">
+                                <p>£1,050.00</p>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <div class="description">
+                                <h5>Supporter Tickets</h5>
+                                <p>Supporters receive 1 meal, 2 drinks, 1 t-shirt, access to runner village and the after party</p>
+                            </div>
+                            <div class="quantity">
+                                <input type="number" value="1">
+                            </div>
+                            <div class="price">
+                                <p>£500.00</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <div class="coupons">
+                                <input type="text" placeholder="Enter coupon code">
+                            </div>
+                            <div class="totals">
+                                <ul>
+                                    <li>VAT <span>£190.05</span></li>
+                                    <li>Total<span>£1,590.05</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="next btn btn-invalid">Next</div>
+                    </div>
+
+                    <div class="slide" data-slide="3">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Payment</h4>
+                        </div>
+                        <div class="next btn btn-orange">Next</div>
+                    </div>
+
+                    <div class="slide" data-slide="4">
+                        thank you
+                        <div class="next btn btn-orange">Next</div>
+                    </div>
+
+                    <div class="slide" data-slide="5">
+                        Moment of time
+                    </div>
+
+                    <div class="modal-footer stages">
+                        <ul class="stage-1">
+                            <li class="current" data-slide="1">1</li>
+                            <li data-slide="2">2</li>
+                            <li data-slide="3">3</li>
+                            <li data-slide="4">4</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- END MODALS -->
 

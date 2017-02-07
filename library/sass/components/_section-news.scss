@@ -5,9 +5,9 @@
         width: 25%;
     }
     .news-item {
-        padding: 11.5px 10.5px 55px;
-        width: 25%;
         position: relative;
+        padding: 11.5px 10.5px 55px;
+        width: 20%;
         img {
             width: 100%;
             height: auto;
@@ -70,6 +70,21 @@
         }
         .news-item {
             width: 33.33%;
+            p:not(.date) {
+                line-height: 20px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@include tablet-p {
+    .news {
+        .grid-sizer {
+            width: 50%;
+        }
+        .news-item {
+            width: 50%;
             p:not(.date) {
                 line-height: 20px;
                 font-size: 15px;

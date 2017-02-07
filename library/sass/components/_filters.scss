@@ -155,6 +155,8 @@
         transform: translateY(10px);
         transition: all ease-in .3s;
         opacity: 0;
+
+        pointer-events: none;
     }
     h2 {
         text-transform: uppercase;

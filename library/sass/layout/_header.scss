@@ -75,7 +75,7 @@
             //if has child show triangle
             &.has-child:after {
                 position: absolute;
-                top: 100%;
+                top: 99%;
                 left: calc(50% - 15px);
                 transform: translateX(-50%);
                 transition: all ease-in .3s .1s;
@@ -126,7 +126,7 @@
                             text-transform: uppercase;
                             color: $black;
                             font-size: 20px;
-                            font-weight: 900;
+                            font-weight: 800;
                             .time {
                                 display: block;
                                 width: 100%;
@@ -182,6 +182,11 @@
             text-decoration: none;
             color: $white;
             font-size: 16px;
+            &:hover,
+            &:focus,
+            &:active {
+                outline: none;
+            }
         }
     }
 }
@@ -275,7 +280,7 @@
             }
         }
         .header-account {
-            display: none;
+            margin-right: 20px;
         }
         .header-bg {
             display: none;

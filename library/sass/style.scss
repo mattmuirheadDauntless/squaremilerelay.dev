@@ -25,7 +25,7 @@
 
 //Import pages SCSS here
 //This area should be for page specific styles
-//@import "pages/_example";
+@import "pages/_single-company";
 
 //Import components SCSS here
 //This area should be for individual components/modules such as sliders, buttons etc.
@@ -69,3 +69,4 @@
 @import "components/_section-global-gallery";
 @import "components/_section-city-cta";
 @import "components/_section-single-city-heading";
+@import "components/_section-single-company-heading";

@@ -9,16 +9,17 @@
                 <h3>How fast can you run your city?</h3>
                 <h1>The Ultimate Corporate Team Running Event</h1>
             </div>
-            <div class="play-video">
+            <div class="play-video vid-modal-link" data-toggle="modal" data-target="#media" data-src="http://r18---sn-aigllney.googlevideo.com/videoplayback?signature=CDD6EB7997EE6EA9EFACDF38ECC324B9129F4FCF.69687CF60D380CCE7898120C62950B448C2FEE24&fallback_host=redirector.googlevideo.com&quality=hd720&upn=fJkwkK_IgrA&dur=13.444&ip=83.222.234.72&ratebypass=yes&ipbits=0&mv=u&mm=31&source=youtube&pl=23&mn=sn-aigllney&id=o-AJV6gxO-M4fYIZ5NnnoA0tA_eEbfGIiij6W7XAMsBMhQ&ms=au&sparams=dur,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,source,upn,expire&nh=IgpwcjAxLmxocjI1KgkxMjcuMC4wLjE&lmt=1471048617131497&itag=22&mime=video%2Fmp4&key=yt6&expire=1486421056&mt=1486399434&signature=">
                 <div class="play-btn">
                     <i class="fa fa-2x fa-play" aria-hidden="true"></i>
                 </div>
                 <span>Play Video</span>
             </div>
         </div>
-        <div class="cinemagraph">
+        <div class="cinemagraph" style="background-image: url(library/images/demo-news.jpg)">
             <?php
-            $id = "hWO07uBqwu0";
+            $id2 = "hWO07uBqwu0";
+            $id = "vu97oYa7X";
             parse_str(file_get_contents("http://youtube.com/get_video_info?video_id=".$id),$info);
             $streams = $info['url_encoded_fmt_stream_map'];
             $streams = explode(',',$streams);

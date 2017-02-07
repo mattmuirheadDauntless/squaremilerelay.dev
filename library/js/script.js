@@ -129,7 +129,24 @@ $(function(){
                 }
             }, 500);
 
-        } else {
+        }
+
+        //if single-company page
+        if ($('.company-table').length > 0){
+            $('.company-table tr').addClass('hide');
+            $('.company-table tr'+$selector).removeClass('hide');
+
+            //if no results
+            setTimeout(function(){
+                if ( $('.company-table tr:visible').length <= 0 ) {
+                    $('.table-wrapper').height($('.isotope-no-items').height() + 200);
+                    $('.isotope-no-items').removeClass('inactive');
+                }
+            }, 500);
+
+        }
+
+        if ($('.results-table').length <= 0 || $('.company-table').length <= 0){
             //if no results
             setTimeout(function(){
                 if ( $('.grid-item:visible').length <= 0 ) {
@@ -164,27 +181,110 @@ $(function(){
         $notification.addClass('hide');
     });
 
+    //handle media modals
+    $('.vid-modal-link').click(function() {
+        var $this = $(this),
+            $src = $this.attr('data-src');
+
+        $('.media-modal .img').addClass('hide');
+        $('.media-modal .video').removeClass('hide');
+
+        $('.media-modal video').attr('src', $src);
+    });
+
+    $('.img-modal-link').click(function() {
+        var $this = $(this),
+            $src = $this.attr('data-src');
+
+        $('.media-modal .img').removeClass('hide');
+        $('.media-modal .video').addClass('hide');
+
+        $('.media-modal img').attr('src', $src);
+    });
+
+    //enter race modal controls
+    $('.slide .next').click(function() {
+        var $this = $(this),
+            $activeSlide = $this.parent('.slide').attr('data-slide'),
+            $nextSlide = parseFloat($activeSlide, 2) + 1;
+
+        $this.parent('.slide').addClass('completed');
+        $this.parent('.slide').removeClass('current');
+        $('.slide[data-slide="'+ $nextSlide +'"]').addClass('current');
+
+        $('.stages li[data-slide="'+ $activeSlide +'"]').addClass('completed');
+        $('.stages li[data-slide="'+ $activeSlide +'"]').removeClass('current');
+        $('.stages li[data-slide="'+ $nextSlide +'"]').addClass('current');
+
+        $('.stages ul').removeClass();
+        $('.stages ul').addClass('stage-'+$nextSlide);
+    });
+
+    $('.stages ul li').click(function() {
+        var $this = $(this),
+            $thisSlide = $this.attr('data-slide')
+            $currentSlide = $('.slide.current').attr('data-slide');
+
+        if ($this.hasClass('completed')){
+
+            $('.slide[data-slide="'+ $currentSlide +'"]').removeClass('completed');
+            $('.slide[data-slide="'+ $currentSlide +'"]').removeClass('current');
+            $('.slide[data-slide="'+ $thisSlide +'"]').removeClass('completed');
+            $('.slide[data-slide="'+ $thisSlide +'"]').addClass('current');
+
+            $('.stages li[data-slide="'+ $currentSlide +'"]').removeClass('completed');
+            $('.stages li[data-slide="'+ $currentSlide +'"]').removeClass('current');
+            $('.stages li[data-slide="'+ $thisSlide +'"]').removeClass('completed');
+            $('.stages li[data-slide="'+ $thisSlide +'"]').addClass('current');
+
+            $('.stages ul').removeClass();
+            $('.stages ul').addClass('stage-'+$thisSlide);
+        }
+    });
+
+    $('.slide.current .input:not(select)').on('blur', function() {
+        var $valid = 1;
+        $('.slide.current .input:not(select)').each(function(){
+            if ($(this).val() == "") {
+                $valid = 0;
+            }
+            if ($(this).is(":valid") != 1){
+                $valid = 0;
+            }
+        });
+
+        if ($valid == 1){
+            $('.slide.current .next.btn').addClass('btn-orange');
+            $('.slide.current .next.btn').removeClass('btn-invalid');
+        } else {
+            $('.slide.current .next.btn').removeClass('btn-orange');
+            $('.slide.current .next.btn').addClass('btn-invalid');
+        }
+    });
+
 //===================================
 //HOME PAGE
 //===================================
 
-    //handle home page accordion nav
-    $('.about-accordion .nav-items li').click(function() {
-        var $this = $(this);
+    if ( $(window).width() > 900 ) {
+        $('.about-accordion .nav-items .nav-item').click(function() {
+            var $this = $(this),
+                $accordion = $this.attr('data-accordion');
 
-        $('.about-accordion .nav-items li').removeClass('active');
-        $this.addClass('active');
-    });
+            $('.about-accordion .nav-items .nav-item').removeClass('active');
+            $('.about-accordion .main-accordion').removeClass('active');
+            $this.addClass('active');
+            $('.about-accordion .main-accordion[data-accordion="'+ $accordion +'"]').addClass('active');
+        });
+    } else {
+         $('.about-accordion .nav-items .nav-item').click(function() {
+            var $this = $(this),
+                $accordion = $this.attr('data-accordion');
 
-    $('.about-accordion .nav-items .nav-item').click(function() {
-        var $this = $(this),
-            $accordion = $this.attr('data-accordion');
-
-        $('.about-accordion .nav-items .nav-item').removeClass('active');
-        $('.about-accordion .main-accordion').removeClass('active');
-        $this.addClass('active');
-        $('.about-accordion .main-accordion[data-accordion="'+ $accordion +'"]').addClass('active');
-    });
+            $this.toggleClass('active');
+            $('.about-accordion .main-accordion[data-accordion="'+ $accordion +'"]').toggleClass('active');
+        });
+    }
 
     //handle gallery in accordion
     var $imgGrid = $('.accordion-gallery').isotope({
@@ -423,13 +523,15 @@ $('.save-btn').click(function() {
     });
 
     //when list gets to top of screen go fixed
-    new Waypoint({
-        element: $('#citySlideNav'),
-        handler: function() {
-            $('#citySlideNav').toggleClass('fixed');
-        },
-        offset: '180px'
-    });
+    if ($('#citySlideNav').length > 0) {
+        new Waypoint({
+            element: $('#citySlideNav'),
+            handler: function() {
+                $('#citySlideNav').toggleClass('fixed');
+            },
+            offset: '180px'
+        });
+    }
 
     $('.race-year .section').each(function() {
         var $this = $(this),
@@ -447,6 +549,18 @@ $('.save-btn').click(function() {
             },
             offset: '280px'
         });
+    });
+
+//===================================
+//SINGLE COMPANY PAGE
+//===================================
+
+    $('.company-table .heading-row').click(function() {
+        var $this = $(this),
+            $child = $this.next('.child-row').find('.table-expander');
+
+        $this.toggleClass('active');
+        $child.toggleClass('active');
     });
 
 //===================================
