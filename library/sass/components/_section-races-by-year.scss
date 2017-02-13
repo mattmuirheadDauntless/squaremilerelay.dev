@@ -51,7 +51,7 @@ $gutterWidth: 230px;
         list-style: none;
         &.fixed {
             position: fixed;
-            top: 140px;
+            top: 125px;
             left: 0;
         }
         li {
@@ -222,9 +222,11 @@ $gutterWidth: 230px;
                 .img-button {
                     position: relative;
                     margin-bottom: 60px;
+                    float: left;
+                    clear: both;
                     .btn {
                         position: absolute;
-                        top: 93%;
+                        top: calc(100% - 25px);
                         left: 50%;
                         transform: translate(-50%, 0);
                     }
@@ -234,6 +236,7 @@ $gutterWidth: 230px;
                     color: $grey;
                     font-size: 15px;
                     font-weight: 400;
+                    clear: both;
                 }
             }
 
@@ -284,6 +287,7 @@ $gutterWidth: 230px;
                             display: block;
                             padding: 10px;
                             color: $white;
+                            height: 35px;
                             i {
                                 position: absolute;
                                 top: 50%;
@@ -619,7 +623,7 @@ $gutterWidth: 230px;
                         .img-button {
                             margin-bottom: 45px;
                             .btn {
-                                top: 85%;
+                                top: calc(100% - 25px);
                             }
                         }
                     }

@@ -1,76 +1,10 @@
 .partners {
     background-color: $white;
-    padding: 30px 0 20px;
+    padding: 30px 0 70px;
     min-height: 700px;
 
-    @include phone {
-        .slide-nav {
-            display: none;
-        }
-        .race {
-            padding: 30px 20px 0;
-            .race-title {
-                padding: 10px 0 25px;
-                h2 {
-                    font-size: 30px;
-                }
-            }
-            .race-partners {
-                padding: 0;
-                .slide-nav-section {
-                    margin-top: 20px;
-                    padding: 25px 0 35px;
-                    img {
-                        width: 100%;
-                    }
-                    h3 {
-                        top: -44px;
-                        padding: 5px 0 5px;
-                        color: $black;
-                        font-size: 20px;
-                    }
-                    &.active {
-                        h3 {
-                            padding: 5px 0 5px;
-                            color: $black;
-                            &:before {
-                                display: none;
-                            }
-                        }
-                    }
-                    .content-left {
-                        padding-right: 0;
-                    }
-                    .content-right {
-                        img {
-                            width: 100%;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    @include tablet-l {
-        .race {
-            .race-partners {
-                .slide-nav-section {
-                    .content-left {
-                        float: left;
-                        width: 100%;
-                    }
-                    .content-right {
-                        float: left;
-                        margin-top: 15px;
-                        width: 100%;
-                        img {
-                            margin-right: 8px;
-                            width: calc(50% - 30px);
-                        }
-                    }
-                }
-            }
-        }
-    }
+
+
     &.active {
         .slide-nav {
             transition: all ease-in .3s .4s;
@@ -79,7 +13,7 @@
     }
     .slide-nav {
         position: absolute;
-        top: 160px;
+        top: 150px;
         left: 0;
         transition: all ease-in .3s;
         opacity: 0;
@@ -88,7 +22,7 @@
         list-style: none;
         &.fixed {
             position: fixed;
-            top: 155px;
+            top: 150px;
             transition: all ease-in .3s;
         }
         li {
@@ -204,4 +138,76 @@
             }
         }
     }
+
+    @include tablet-l {
+        .race {
+            .race-partners {
+                .slide-nav-section {
+                    .content-left {
+                        float: left;
+                        width: 100%;
+                    }
+                    .content-right {
+                        float: left;
+                        margin-top: 15px;
+                        width: 100%;
+                        img {
+                            margin-right: 8px;
+                            width: calc(50% - 30px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include phone {
+        .slide-nav {
+            display: none;
+        }
+        .race {
+            padding: 30px 20px 0;
+            .race-title {
+                padding: 10px 0 25px;
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            .race-partners {
+                padding: 0;
+                .slide-nav-section {
+                    margin-top: 20px;
+                    padding: 25px 0 35px;
+                    img {
+                        width: 100%;
+                    }
+                    h3 {
+                        top: -44px;
+                        padding: 5px 0 5px;
+                        color: $black;
+                        font-size: 20px;
+                    }
+                    &.active {
+                        h3 {
+                            padding: 5px 0 5px;
+                            color: $black;
+                            &:before {
+                                display: none;
+                            }
+                        }
+                    }
+                    .content-left {
+                        padding-right: 0;
+                    }
+                    .content-right {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+

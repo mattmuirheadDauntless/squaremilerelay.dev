@@ -12,6 +12,7 @@
         .text {
             float: left;
             padding-left: 4px;
+            padding-right: 100px;
             width: 100%;
             max-width: 1000px;
             h4 {
@@ -74,6 +75,13 @@
             &.active {
                 padding: 50px 50px 60px;
             }
+
+            .text {
+                padding-right: 30px;
+                .btn-black {
+                    margin: 38px 30px 0 0;
+                }
+            }
         }
     }
 }
@@ -89,6 +97,7 @@
                 margin-bottom: 40px;
             }
             .text {
+                padding-right: 10px;
                 p {
                     padding: 0;
                 }

@@ -145,31 +145,32 @@
             </li>
             <div class="main-accordion" data-accordion="3">
                 <div class="accordion-gallery">
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/200/300/?random">
                         <img src="https://unsplash.it/200/300/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/260/200/?random">
                         <img src="https://unsplash.it/260/200/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/200/250/?random">
                         <img src="https://unsplash.it/200/250/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/300/300/?random">
                         <img src="https://unsplash.it/300/300/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/400/400/?random">
                         <img src="https://unsplash.it/400/400/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/250/600/?random">
                         <img src="https://unsplash.it/250/600/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="
+                    https://unsplash.it/450/250/?random">
                         <img src="https://unsplash.it/450/250/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/200/300/?random">
                         <img src="https://unsplash.it/200/300/?random" alt="">
                     </div>
-                    <div class="img-item">
+                    <div class="img-item img-modal-link" data-toggle="modal" data-target="#media" data-src="https://unsplash.it/230/330/?random">
                         <img src="https://unsplash.it/230/330/?random" alt="">
                     </div>
                 </div>

@@ -116,11 +116,10 @@
                         <a href="#" class="btn btn-black">Directions</a>
                         <h6>Spread the word...</h6>
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//macbook-pro-6.local%3A5757/news-single.php"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/home?status=http%3A//macbook-pro-6.local%3A5757/news-single.php"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//macbook-pro-6.local%3A5757/news-single.php&title=&summary=&source="><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://plus.google.com/share?url=http%3A//macbook-pro-6.local%3A5757/news-single.php"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>

@@ -464,7 +464,7 @@ $('.save-btn').click(function() {
             handler: function() {
                 $('#partnersNav').toggleClass('fixed');
             },
-            offset: 140
+            offset: 150
         });
     }
 

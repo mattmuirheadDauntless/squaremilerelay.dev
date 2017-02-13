@@ -47,6 +47,7 @@
         .modal-dialog {
             width: inherit;
             max-width: none;
+            overflow: hidden;
             .modal-content {
                 background-color: transparent;
                 .modal-body {
