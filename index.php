@@ -74,7 +74,7 @@
                 </li>
                 <li>
                     <span>05</span>
-                    <h2>10 Race Locations</h2>
+                    <h2>20 Race Locations</h2>
                 </li>
             </ul>
         </div>
