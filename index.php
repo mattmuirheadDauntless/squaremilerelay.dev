@@ -44,7 +44,7 @@
              <div class="race">
                 <a href="#" class="cover-link"></a>
                 <div class="text">
-                    <h3>08 Febuary 2017</h3>
+                    <h3>02 March 2017</h3>
                     <h2>San Francisco</h2>
                     <h5>TBC</h5>
                 </div>
