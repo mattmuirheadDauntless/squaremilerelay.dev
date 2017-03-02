@@ -73,7 +73,7 @@
                     <h2>Global Gallery</h2>
                 </li>
                 <li>
-                    <span>04</span>
+                    <span>05</span>
                     <h2>10 Race Locations</h2>
                 </li>
             </ul>
